@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/home/Home';
+import Home from './pages/home/home';
 
 const AllRoutes = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div>
         <Routes>
           <Route path='/' element={<Home />} />
