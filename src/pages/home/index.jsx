@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import InfoCard from '../../components/infoCards';
 import Header from '../../components/header';
