@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/index';
 import Comparator from './pages/comparator/index';
-import Dice from './pages/dice/dice';
+import Dice from './pages/dice/index';
 
 const AllRoutes = () => {
   return (
