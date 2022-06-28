@@ -6,3 +6,11 @@ export const getStates = () => {
   });
 };
 
+export const getInstitutions = () => {
+  return fetch ('./institutions.json', {
+    headers:{
+      'Accept': 'application/json'
+    }
+  });
+};
+
