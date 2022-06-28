@@ -10,22 +10,22 @@ function Comparator() {
   const [institutions, setInstitutions] = useState([]);
   const [text, setText] = useState('');
 
-  function filterCourses(data, text) {
-    let courseFiltered = data.filter((course) => course.name === text);
-    console.log(courseFiltered);
-  }
+  // function filterCourses(data, text) {
+  //   let courseFiltered = data.filter((course) => course.name === text);
+  //   console.log(courseFiltered);
+  // }
 
   useEffect(() => {
     getInstitutions()
       .then((response) => response.json())
       .then((data) => {
         setInstitutions(data.institutions);
-        filterCourses(institutions, text);
+        // filterCourses(institutions, text);
       });
   }, [text]);
 
-  // console.log(institutions);
-  filterCourses(institutions, 'FAAP');
+  console.log(institutions);
+  // filterCourses(institutions, 'FAAP');
 
   return (
     <>
