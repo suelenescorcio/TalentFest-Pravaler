@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/home/home';
+import Home from './pages/home/index';
 import Comparator from './pages/comparator/comparator';
 
 const AllRoutes = () => {
@@ -14,6 +14,6 @@ const AllRoutes = () => {
       </div>
     </Router>
   );
-}
-  
+};
+
 export default AllRoutes;
