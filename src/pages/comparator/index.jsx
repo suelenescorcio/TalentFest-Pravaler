@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Input from '../../components/input';
 import Header from '../../components/header';
-// import CoursesCard from '../../components/coursesCard';
+import CoursesCard from '../../components/coursesCard';
 // import Select from '../../components/select';
 import { getInstitutions } from '../../services/api';
 
@@ -11,9 +11,8 @@ function Comparator() {
   const [text, setText] = useState('');
 
   function filterCourses(data, text) {
-    let courseFiltered =  data.filter((course) => course.name === text);
-    return courseFiltered;
-    // console.log(courseFiltered);
+    let courseFiltered = data.filter((course) => course.name === text);
+    console.log(courseFiltered);
   }
 
   useEffect(() => {
@@ -25,8 +24,8 @@ function Comparator() {
       });
   }, [text]);
 
-  console.log(institutions);
-  filterCourses(institutions, 'UNISUL');
+  // console.log(institutions);
+  filterCourses(institutions, 'FAAP');
 
   return (
     <>
@@ -38,7 +37,7 @@ function Comparator() {
         placeholder="Pesquise o curso ou a instituição"
         className="search-input"
       />
-      {/* <CoursesCard institutions={institutions} /> */}
+      <CoursesCard institutions={institutions} />
     </>
   );
 }
