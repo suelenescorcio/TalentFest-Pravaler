@@ -5,7 +5,7 @@ function InfoCard({className, children}){
         <div className={className}>
             {children}
         </div>
-    )
+    );
 }
 
 export default InfoCard;

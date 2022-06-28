@@ -5,12 +5,13 @@
 }
 
 .about-section {
+  justify-content: center;
   display: flex;
   margin: 0.7%;
 }
 
 .about {
-  width: 35%;
+  width: 27%;
   margin: 1%;
   padding: 0.5%;
   display: flex;
