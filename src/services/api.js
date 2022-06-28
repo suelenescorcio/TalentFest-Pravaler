@@ -1,11 +1,8 @@
-
 export const getStates = () => {
-  return fetch ('../../public/estados.json', {
+  return fetch ('./estados.json', {
     headers:{
-      Accept:'application/json'
+      'Accept': 'application/json'
     }
-  })
-  .then(res => res.json()
-  );
+  });
 };
 
