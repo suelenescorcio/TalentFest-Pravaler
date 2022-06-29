@@ -2,30 +2,41 @@ import { useEffect, useState } from 'react';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
-// import Select from '../../components/select';
-import { getInstitutions } from '../../services/api';
+import { getCourses, getStates } from '../../services/api';
+import Select from '../../components/select';
 
 function Comparator() {
-  //const [dataStates, setDataStates] = useState([]);
-  const [institutions, setInstitutions] = useState([]);
+  const [dataStates, setDataStates] = useState([]);
+  const [courses, setCourses] = useState([]);
   const [text, setText] = useState('');
 
-  // function filterCourses(data, text) {
-  //   let courseFiltered = data.filter((course) => course.name === text);
-  //   console.log(courseFiltered);
-  // }
+  function filterCourses(data, text) {
+    let courseFiltered = data.filter((course) => course.name === text);
+    console.log(courseFiltered);
+  }
 
   useEffect(() => {
-    getInstitutions()
+    getStates()
+    .then((response) => response.json())
+    .then((data) => {
+      const states = data.states;
+      setDataStates(states);
+      console.log(data, 'data');
+    });
+  }, []);
+
+  useEffect(() => {
+    getCourses()
       .then((response) => response.json())
       .then((data) => {
-        setInstitutions(data.institutions);
-        // filterCourses(institutions, text);
+        setCourses(data.courses);
+        filterCourses(courses, text);
       });
   }, [text]);
 
-  console.log(institutions);
-  // filterCourses(institutions, 'FAAP');
+  // console.log(institutions);
+  filterCourses(courses, 'Administração');
+
 
   return (
     <>
@@ -37,7 +48,8 @@ function Comparator() {
         placeholder="Pesquise o curso ou a instituição"
         className="search-input"
       />
-      <CoursesCard institutions={institutions} />
+      <Select options={dataStates} />
+      <CoursesCard courses={courses} />
     </>
   );
 }
