@@ -17,6 +17,6 @@ const AllRoutes = () => {
       </div>
     </Router>
   );
-}
-  
+};
+
 export default AllRoutes;

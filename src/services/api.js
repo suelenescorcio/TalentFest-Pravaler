@@ -7,7 +7,7 @@ export const getStates = () => {
 };
 
 export const getInstitutions = () => {
-  return fetch ('./institutions.json', {
+  return fetch ('./institutions-v2.json', {
     headers:{
       'Accept': 'application/json'
     }
@@ -21,5 +21,14 @@ export const getCourses = () => {
     }
   });
 };
+
+export const getCampus = () => {
+  return fetch ('./campus.json', {
+    headers:{
+      'Accept': 'application/json'
+    }
+  });
+};
+
 
 

@@ -4,4 +4,38 @@
 
 .section-cards {
     display: flex;
+    justify-content: space-evenly;
+    padding: 2.5%;
+    flex-wrap: wrap;
+}
+
+.section-selects {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.search-input {
+    width: 18%;
+    padding: 1%;
+    text-align: center;
+    background-color: #C090F9;
+    border: black;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.search-input::placeholder {
+    color: white;
+  }
+
+
+.button-reset {
+    width: 18%;
+    padding: 1%;
+    text-align: center;
+    background-color: #C090F9;
+    border: black;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8));
 }
