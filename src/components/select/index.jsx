@@ -1,18 +1,19 @@
-// function Select({onChange,options}) {
-//   return (
-//     <>
-//     <select onChange={onChange}>
-//       <option>Selecione</option>
-//       {options.map((options, index) => {
-//       return(
-//         <option key={index} value={options.name}>
-//           {options.uf}
-//         </option>
-//       );
-//     })}
-//     </select>
-//     </>
-//   );
-// }
+function Select({ onChange, options }) {
+  return (
+    <>
+      <select onChange={onChange}>
+        <option value="" disabled> UF
+        </option>
+        {options.map((option, index) => {
+          return (
+            <option key={index} value={option.name}>
+              {option.uf}
+            </option>
+          );
+        })}
+      </select>
+    </>
+  );
+}
 
-// export default Select;
+export default Select;
