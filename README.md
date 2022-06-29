@@ -1,7 +1,8 @@
 # Desenvolvimento web (MVP) : Comparador de Cursos
 
-Pravaler
-<img src="assets/logo.png">
+ 
+![logobranco](src/assets/logo.png)
+
 
 Nossa equipe de Desenvolvedoras recebeu a tarefa enviada pela empresa Pravaler , onde deveriamos criar uma aplicação viável em que  o aluno possa saber como funciona o crédito, o que ele precisa fazer para contratá-lo, apresentar
 o comparador de cursos e encorajá-lo a usar, exibindo na tela funçoes de escolhe filtrando as principais informações requeridas pelo usuário. Ressaltando que este projeto foi desenvolvido especialmente para o Talent fest da Laboratória brasil , onde as empresas lançam desafios  e as desenvolvedoras  formadas tem apenas quatro dia pra entregar a solução, sendo tambem as apresentações transmitida via  Yutube.
@@ -14,21 +15,21 @@ Nele trabalhamos cada história de usuário e esmiuçamos em Baby Steps, o que f
 
 Outro ponto bastante positivo, foi que procuramos fazer o projeto na sua grande maioria em pair programming, o que nos ajudou a chegarmos ainda mais perto do resultado esperado.
 
-<img src="assets/trello.png">
+![](src/assets/trello.png)
 
 ## 2. Protótipo de Alta Fidelidade
 
 O protótipo de alta fidelidade foi desenvolvido na ferramenta do Figma.
 
-<img src="assets/tela1.png">
-<img src="assets/tela2.png">
-<img src="assets/tela3.png">
+![](src/assets/tela1.png)
+![](src/assets/tela2.png)
+![](src/assets/tela3.png)
 
 ## 3. Paleta de Cores
 
 Nossa paleta de cores foi inspirada no Logo da  empresa .
 
-<img src="assets/paletadecores.png">
+![](src/assets/paletadecores.png)
 
 #### Critérios de aceitação
 
@@ -83,5 +84,7 @@ Aplicação desenvolvida por [Suelen Escorcio](https://github.com/suelenescorcio
 
 ## 6. Agradecimentos
 
-- Agradecimentos especiais a equipe de programadores do Pravaler ao apoio a nossa equipe, que nos deu total suporte durante o desafio.
+- Agradecimentos especiais a equipe de programadores do Pravaler  ao apoio a nossa equipe, que nos deu total suporte durante o desafio do talent fest Brasil.
 - Agradecimento especial a Marcela Godoy e Leticia cipriano , que nos acompanhou em todo desafio.
+
+![](src/assets/tanks.png)
