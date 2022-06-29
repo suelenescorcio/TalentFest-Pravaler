@@ -53,9 +53,9 @@ function Comparator() {
         />
       <Select options={dataStates} />
       <Table />
-        {/* <section className='section-cards'> */}
+        <section className='section-cards'>
       <CoursesCard courses={courses} />
-      {/* </section> */}
+      </section>
       </main>
     </>
   );
