@@ -10,7 +10,7 @@ function CoursesCard({courses, onclick}) {
               <p>Nome do Curso: {course.name}</p>
               <p>Descrição: {course.description}</p>
               <p>Semestres: {course.semesters}</p>
-              <p>Mesalidade: {course.monthly_payment}</p>
+              <p>Mensalidade: {course.monthly_payment}</p>
               <p>Nota do MEC: {course.mec_avaliation}</p>
               <p>Faixa Salarial: {course.salary_range}</p>
               <Button type='click' onClick={onclick} className='button-course'>Comparar</Button>
