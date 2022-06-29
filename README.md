@@ -1,8 +1,6 @@
 # Desenvolvimento web (MVP) : Comparador de Cursos
 
- 
 ![logobranco](src/assets/logo.png)
-
 
 Nossa equipe de Desenvolvedoras recebeu a tarefa enviada pela empresa Pravaler , onde deveriamos criar uma aplicação viável em que  o aluno possa saber como funciona o crédito, o que ele precisa fazer para contratá-lo, apresentar
 o comparador de cursos e encorajá-lo a usar, exibindo na tela funçoes de escolhe filtrando as principais informações requeridas pelo usuário. Ressaltando que este projeto foi desenvolvido especialmente para o Talent fest da Laboratória brasil , onde as empresas lançam desafios  e as desenvolvedoras  formadas tem apenas quatro dia pra entregar a solução, sendo tambem as apresentações transmitida via  Yutube.
@@ -53,8 +51,9 @@ Nesta tela, deve ser possível refazer a escolha das opções (limpar selecionad
 anteriormente e escolher novos).
 Caso o aluno tenha interesse em um dos cursos apresentados, deve ter a opção de um botão
 “quero esse”.
+
 - Página dos dados pessoais
- - Ao clicar no botão “quero este”, o aluno deve ser direcionado para uma página de contato,
+- Ao clicar no botão “quero este”, o aluno deve ser direcionado para uma página de contato,
 onde conterá infomações do curso selecionado e um formulário para o preenchimento dos
 
 #### Critérios de aceitação
@@ -69,15 +68,14 @@ onde conterá infomações do curso selecionado e um formulário para o preenchi
 
 ## 4. Tecnologias Utilizadas
 
-- React
-- Git
-- Css
-- Eslint
-- GitHub
-- Figma
-- Slack
-- Trello
-
+<p align="center">
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
+<a href="https://trello.com/pt-BR//" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/-Trello-007ACC?style=flat&logo=Trello&logoColor=white">
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+ <img alt="Slack" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg">
+ 
 ## 5. Considerações
 
 Aplicação desenvolvida por [Suelen Escorcio](https://github.com/suelenescorcio), [_Leticia Antunes_](https://github.com/leticiaantunesjpeg)  [_Flavia Dantas_](https://github.com/flavia-dantas) , [_Vanessa Borges_](https://github.com/vanessavb92) , e [_Julia Benedicto_](https://github.com/juliabb) .
@@ -87,4 +85,3 @@ Aplicação desenvolvida por [Suelen Escorcio](https://github.com/suelenescorcio
 - Agradecimentos especiais a equipe de programadores do Pravaler  ao apoio a nossa equipe, que nos deu total suporte durante o desafio do talent fest Brasil.
 - Agradecimento especial a Marcela Godoy e Leticia cipriano , que nos acompanhou em todo desafio.
 
-![](src/assets/tanks.png)
