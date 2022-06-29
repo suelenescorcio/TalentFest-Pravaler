@@ -1,6 +1,6 @@
 import Button from '../button';
 
-function Table({course,onClick}) {
+function Table({arrCourse,onClick}) {
   return (
     <>
       <table>
@@ -17,16 +17,22 @@ function Table({course,onClick}) {
           </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>{course.name ? course.name : ''}</td>
-            <td>{course.instituionId ? course.instituionId : ''}</td>
-            <td>{course.campusId ? course.campusId: ''}</td>
-            <td>{course.monthly_payment ? course.monthly_payment : ''}</td>
-            <td>{course.mec_avaliation ? course.mec_avaliation : ''}</td>
-            <td>{course.semesters ? course.semesters : ''}</td>
-            <td>{course.salary_range ? course.salary_range : ''}</td>
+        {arrCourse.map((course) => {
+          return(
+        <tr key={course.id}>
+            <td>{course.name}</td>
+            <td>{course.instituionId}</td>
+            <td>{course.campusId}</td>
+            <td>{course.monthly_payment}</td>
+            <td>{course.mec_avaliation}</td>
+            <td>{course.semesters}</td>
+            <td>{course.salary_range}</td>
             <td><Button type='click' onClick={onClick} className='button-select' >Selecionar</Button></td>
         </tr>
+
+          );
+        } )}
+
         </tbody>
       </table>
     </>
