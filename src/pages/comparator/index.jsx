@@ -23,10 +23,9 @@ function Comparator() {
 
   function filterCourses(data, text) {
     let courseFiltered = data.filter((response) =>
-      response.name.includes(text)
-    );
-    setCourses(courseFiltered);
-    return courseFiltered;
+      response.name.includes(text));
+      setCourses(courseFiltered);
+      return courseFiltered;
     //console.log(courseFiltered);
   }
 
@@ -67,10 +66,24 @@ function Comparator() {
       });
   }, []);
 
+  // const testCourses = (event) => {
+
+
+  //   if(event.keyCode === 8){
+  //     return getCourses();
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   window.addEventListener('keydown', testCourses);
+  // }, []);
+
   const handleInput = (e) => {
     setText(e.target.value);
     filterCourses(courses, text);
   };
+
+
 
   const handleCourse = (course) => {
     const courseFind = courses.find((item) => item.id === course.id);
