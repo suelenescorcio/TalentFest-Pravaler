@@ -1,0 +1,1257 @@
+{
+    "campus": [
+        {
+            "id": 275,
+            "name": "ARARANGUÁ",
+            "uf": "SC",
+            "city": "ARARANGUÁ",
+            "instituionId": 1
+        },
+        {
+            "id": 17842,
+            "name": "BALNEÁRIO CAMBORIÚ",
+            "uf": "SC",
+            "city": "Balneário Camboriú",
+            "instituionId": 1
+        },
+        {
+            "id": 278,
+            "name": "BRAÇO DO NORTE",
+            "uf": "SC",
+            "city": "BRAÇO DO NORTE",
+            "instituionId": 1
+        },
+        {
+            "id": 510,
+            "name": "CENTRO",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 2
+        },
+        {
+            "id": 1003,
+            "name": "GUADALUPE",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 2
+        },
+        {
+            "id": 40,
+            "name": "PENHA",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 2
+        },
+        {
+            "id": 80,
+            "name": "ANALIA FRANCO",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 3
+        },
+        {
+            "id": 16674,
+            "name": "GUARULHOS",
+            "uf": "SP",
+            "city": "GUARULHOS",
+            "instituionId": 3
+        },
+        {
+            "id": 81,
+            "name": "LIBERDADE",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 3
+        },
+        {
+            "id": 16402,
+            "name": "ANITA GARIBALDI",
+            "uf": "SC",
+            "city": "JOINVILLE",
+            "instituionId": 4
+        },
+        {
+            "id": 7043,
+            "name": "BLUMENAU",
+            "uf": "SC",
+            "city": "BLUMENAU",
+            "instituionId": 4
+        },
+        {
+            "id": 14075,
+            "name": "JARAGUÁ DO SUL - SHOPPING",
+            "uf": "SC",
+            "city": "JARAGUÁ DO SUL",
+            "instituionId": 4
+        },
+        {
+            "id": 6950,
+            "name": "BANGU",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 5
+        },
+        {
+            "id": 8001,
+            "name": "CAMPUS ARARUAMA",
+            "uf": "RJ",
+            "city": "ARARUAMA",
+            "instituionId": 5
+        },
+        {
+            "id": 7998,
+            "name": "CAMPUS FRIBURGO",
+            "uf": "RJ",
+            "city": "NOVA FRIBURGO",
+            "instituionId": 5
+        },
+        {
+            "id": 6954,
+            "name": "UNESC",
+            "uf": "SC",
+            "city": "CRICIÚMA",
+            "instituionId": 6
+        },
+        {
+            "id": 134,
+            "name": "TATUAPÉ",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 7
+        },
+        {
+            "id": 7021,
+            "name": "BARRA DOWNTOWN",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 8
+        },
+        {
+            "id": 189,
+            "name": "BARRA MARAPENDI",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 8
+        },
+        {
+            "id": 190,
+            "name": "CABO FRIO",
+            "uf": "RJ",
+            "city": "CABO FRIO",
+            "instituionId": 8
+        },
+        {
+            "id": 8750,
+            "name": "CAMPUS MOOCA",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 9
+        },
+        {
+            "id": 230,
+            "name": "MOOCA CENTRO",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 9
+        },
+        {
+            "id": 231,
+            "name": "MORUMBI",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 9
+        },
+        {
+            "id": 259,
+            "name": "BARRA DA TIJUCA",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 10
+        },
+        {
+            "id": 9306,
+            "name": "Campus - VII - Nova Iguaçu",
+            "uf": "RJ",
+            "city": "Nova Iguaçu",
+            "instituionId": 10
+        },
+        {
+            "id": 256,
+            "name": "CARIOCA SHOPPING",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 10
+        },
+        {
+            "id": 15422,
+            "name": "Campus Porto Alegre",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 11
+        },
+        {
+            "id": 15423,
+            "name": "Campus São Leopoldo",
+            "uf": "RS",
+            "city": "SÃO LEOPOLDO",
+            "instituionId": 11
+        },
+        {
+            "id": 980,
+            "name": "PÓLO PORTO ALEGRE",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 11
+        },
+        {
+            "id": 265,
+            "name": "CAMPUS SÃO BENTO DO SUL",
+            "uf": "SC",
+            "city": "SÃO BENTO DO SUL",
+            "instituionId": 12
+        },
+        {
+            "id": 264,
+            "name": "CAMPUS SÃO FRANCISCO DO SUL",
+            "uf": "SC",
+            "city": "SÃO FRANCISCO DO SUL",
+            "instituionId": 12
+        },
+        {
+            "id": 262,
+            "name": "JOINVILLE",
+            "uf": "SC",
+            "city": "JOINVILLE",
+            "instituionId": 12
+        },
+        {
+            "id": 17893,
+            "name": "BAURU",
+            "uf": "SP",
+            "city": "BAURU",
+            "instituionId": 13
+        },
+        {
+            "id": 17895,
+            "name": "BERTIOGA",
+            "uf": "SP",
+            "city": "BERTIOGA",
+            "instituionId": 13
+        },
+        {
+            "id": 17896,
+            "name": "BIRIGUI",
+            "uf": "SP",
+            "city": "BIRIGUI",
+            "instituionId": 13
+        },
+        {
+            "id": 858,
+            "name": "POLO CAICÓ",
+            "uf": "RN",
+            "city": "CAICO",
+            "instituionId": 14
+        },
+        {
+            "id": 859,
+            "name": "POLO CURRAIS NOVOS",
+            "uf": "RN",
+            "city": "CURRAIS NOVOS",
+            "instituionId": 14
+        },
+        {
+            "id": 17961,
+            "name": "POLO PAU DOS FERROS",
+            "uf": "RN",
+            "city": "Pau dos Ferros",
+            "instituionId": 14
+        },
+        {
+            "id": 332,
+            "name": "LINS",
+            "uf": "SP",
+            "city": "LINS",
+            "instituionId": 15
+        },
+        {
+            "id": 333,
+            "name": "PIRACICABA",
+            "uf": "SP",
+            "city": "PIRACICABA",
+            "instituionId": 15
+        },
+        {
+            "id": 331,
+            "name": "SANTA BARBARA D´OESTE",
+            "uf": "SP",
+            "city": "SANTA BARBARA D´OESTE",
+            "instituionId": 15
+        },
+        {
+            "id": 391,
+            "name": "CAPÃO DA CANOA",
+            "uf": "RS",
+            "city": "CAPÃO DA CANOA",
+            "instituionId": 16
+        },
+        {
+            "id": 9276,
+            "name": "MONTENEGRO",
+            "uf": "RS",
+            "city": "MONTENEGRO",
+            "instituionId": 16
+        },
+        {
+            "id": 388,
+            "name": "SEDE SANTA CRUZ DO SUL",
+            "uf": "RS",
+            "city": "SANTA CRUZ DO SUL",
+            "instituionId": 16
+        },
+        {
+            "id": 394,
+            "name": "CAMPUS GUARUJÁ",
+            "uf": "SP",
+            "city": "GUARUJÁ",
+            "instituionId": 17
+        },
+        {
+            "id": 440,
+            "name": "CHAPECÓ",
+            "uf": "SC",
+            "city": "CHAPECÓ",
+            "instituionId": 18
+        },
+        {
+            "id": 17849,
+            "name": "SÃO LOURENÇO DO OESTE",
+            "uf": "SC",
+            "city": "SÃO LOURENÇO",
+            "instituionId": 18
+        },
+        {
+            "id": 433,
+            "name": "CAMPUS CARAZINHO",
+            "uf": "RS",
+            "city": "CARAZINHO",
+            "instituionId": 19
+        },
+        {
+            "id": 434,
+            "name": "CAMPUS CASCA",
+            "uf": "RS",
+            "city": "CASCA",
+            "instituionId": 19
+        },
+        {
+            "id": 16397,
+            "name": "CAMPUS II PASSO FUNDO",
+            "uf": "RS",
+            "city": "Passo Fundo",
+            "instituionId": 19
+        },
+        {
+            "id": 449,
+            "name": "CAMPUS ALPHAVILLE",
+            "uf": "SP",
+            "city": "BARUERI",
+            "instituionId": 20
+        },
+        {
+            "id": 450,
+            "name": "CAMPUS CAMPINAS",
+            "uf": "SP",
+            "city": "CAMPINAS",
+            "instituionId": 20
+        },
+        {
+            "id": 448,
+            "name": "CAMPUS HIGIENÓPOLIS",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 20
+        },
+        {
+            "id": 456,
+            "name": "MÉIER",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 21
+        },
+        {
+            "id": 455,
+            "name": "RIO COMPRIDO",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 21
+        },
+        {
+            "id": 483,
+            "name": "Campus EAD",
+            "uf": "BA",
+            "city": "SANTO ANTÔNIO DE JESUS",
+            "instituionId": 22
+        },
+        {
+            "id": 9108,
+            "name": "Campus Lapa",
+            "uf": "BA",
+            "city": "Bahia",
+            "instituionId": 22
+        },
+        {
+            "id": 9110,
+            "name": "Campus Rio Vermelho",
+            "uf": "BA",
+            "city": "Bahia",
+            "instituionId": 22
+        },
+        {
+            "id": 475,
+            "name": "MACKENZIE RIO",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 23
+        },
+        {
+            "id": 6946,
+            "name": "CAMPUS CENTRO - SEDE ANDRADAS",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 24
+        },
+        {
+            "id": 525,
+            "name": "CAMPUS CENTRO - SEDE GENERAL VITORINO",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 24
+        },
+        {
+            "id": 7483,
+            "name": "CAMPUS CENTRO - SEDE RIACHUELO",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 24
+        },
+        {
+            "id": 528,
+            "name": "CAMPUS CANOAS",
+            "uf": "RS",
+            "city": "CANOAS",
+            "instituionId": 25
+        },
+        {
+            "id": 559,
+            "name": "BARRA",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 26
+        },
+        {
+            "id": 539,
+            "name": "BOTAFOGO",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 26
+        },
+        {
+            "id": 16641,
+            "name": "BRAZ CUBAS",
+            "uf": "SP",
+            "city": "Mogi das Cruzes",
+            "instituionId": 27
+        },
+        {
+            "id": 545,
+            "name": "CAMPUS COMÉRCIO",
+            "uf": "BA",
+            "city": "SALVADOR",
+            "instituionId": 28
+        },
+        {
+            "id": 544,
+            "name": "CAMPUS PARALELA",
+            "uf": "BA",
+            "city": "SALVADOR",
+            "instituionId": 28
+        },
+        {
+            "id": 9138,
+            "name": "Campus Plataforma",
+            "uf": "BA",
+            "city": null,
+            "instituionId": 28
+        },
+        {
+            "id": 14144,
+            "name": "COSTA AZUL",
+            "uf": "BA",
+            "city": "SALVADOR",
+            "instituionId": 29
+        },
+        {
+            "id": 562,
+            "name": "PARALELA",
+            "uf": "BA",
+            "city": "SALVADOR",
+            "instituionId": 29
+        },
+        {
+            "id": 561,
+            "name": "PITUBA",
+            "uf": "BA",
+            "city": "SALVADOR",
+            "instituionId": 29
+        },
+        {
+            "id": 14745,
+            "name": "ALAGOINHAS - BA",
+            "uf": "BA",
+            "city": "ALAGOINHAS",
+            "instituionId": 30
+        },
+        {
+            "id": 6934,
+            "name": "ALCÂNTARA",
+            "uf": "RJ",
+            "city": "SÃO GONÇALO",
+            "instituionId": 30
+        },
+        {
+            "id": 6793,
+            "name": "ANGRA DOS REIS",
+            "uf": "RJ",
+            "city": "Angra dos Reis",
+            "instituionId": 30
+        },
+        {
+            "id": 15414,
+            "name": "ARACAJU - CENTRO",
+            "uf": "SE",
+            "city": "ARACAJU",
+            "instituionId": 31
+        },
+        {
+            "id": 694,
+            "name": "ESTÂNCIA",
+            "uf": "SE",
+            "city": "ESTÂNCIA",
+            "instituionId": 31
+        },
+        {
+            "id": 16400,
+            "name": "ESTÂNCIA - MEDICINA",
+            "uf": "SE",
+            "city": "ESTÂNCIA",
+            "instituionId": 31
+        },
+        {
+            "id": 704,
+            "name": "AMÉLIA MARIA UCHÔA",
+            "uf": "AL",
+            "city": "MACEIÓ",
+            "instituionId": 32
+        },
+        {
+            "id": 15450,
+            "name": "AMÉLIA - Odontologia / Medicina",
+            "uf": "AL",
+            "city": "MACEIÓ",
+            "instituionId": 32
+        },
+        {
+            "id": 14132,
+            "name": "VILA AMÉLIA",
+            "uf": "SP",
+            "city": "SÃO SEBASTIÃO",
+            "instituionId": 33
+        },
+        {
+            "id": 1113,
+            "name": "PAULISTA",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 34
+        },
+        {
+            "id": 13727,
+            "name": "PAP ABELARDO LUZ - SC",
+            "uf": "SC",
+            "city": "Abelardo Luz",
+            "instituionId": 35
+        },
+        {
+            "id": 13325,
+            "name": "PAP ALAGOINHAS - BA",
+            "uf": "BA",
+            "city": "Alagoinhas",
+            "instituionId": 35
+        },
+        {
+            "id": 13656,
+            "name": "PAP ALEGRETE - RS",
+            "uf": "RS",
+            "city": "Alegrete",
+            "instituionId": 35
+        },
+        {
+            "id": 8034,
+            "name": "ITU",
+            "uf": "SP",
+            "city": "ITU",
+            "instituionId": 36
+        },
+        {
+            "id": 8035,
+            "name": "SALTO",
+            "uf": "SP",
+            "city": "SALTO",
+            "instituionId": 36
+        },
+        {
+            "id": 6897,
+            "name": "UNIFRAN",
+            "uf": "SP",
+            "city": "FRANCA",
+            "instituionId": 37
+        },
+        {
+            "id": 2191,
+            "name": "BANGU",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 38
+        },
+        {
+            "id": 2194,
+            "name": "BONSUCESSO",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 38
+        },
+        {
+            "id": 15432,
+            "name": "CAMPO GRANDE",
+            "uf": "RJ",
+            "city": "RIO DE JANEIRO",
+            "instituionId": 38
+        },
+        {
+            "id": 6854,
+            "name": "CAMPUS ARAÇATUBA",
+            "uf": "SP",
+            "city": "ARAÇATUBA",
+            "instituionId": 39
+        },
+        {
+            "id": 6910,
+            "name": "BUTANTÃ",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 40
+        },
+        {
+            "id": 14054,
+            "name": "Guarulhos",
+            "uf": "SP",
+            "city": "GUARULHOS",
+            "instituionId": 40
+        },
+        {
+            "id": 8210,
+            "name": "JABAQUARA",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 40
+        },
+        {
+            "id": 9363,
+            "name": "Campus Principal",
+            "uf": "SP",
+            "city": "São José do Rio Preto",
+            "instituionId": 41
+        },
+        {
+            "id": 15035,
+            "name": "EAD ABELARDO LUZ - SC",
+            "uf": "SC",
+            "city": "ABELARDO LUZ",
+            "instituionId": 41
+        },
+        {
+            "id": 16743,
+            "name": "EAD AMERICANA - SP",
+            "uf": "SP",
+            "city": "São Paulo",
+            "instituionId": 41
+        },
+        {
+            "id": 9467,
+            "name": "CAMPUS SÃO PAULO",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 42
+        },
+        {
+            "id": 16413,
+            "name": "CAMPUS II",
+            "uf": "RO",
+            "city": "PORTO VELHO",
+            "instituionId": 43
+        },
+        {
+            "id": 16414,
+            "name": "JI-PARANÁ",
+            "uf": "RO",
+            "city": "JI-PARANÁ",
+            "instituionId": 43
+        },
+        {
+            "id": 6997,
+            "name": "PRINCIPAL",
+            "uf": "RO",
+            "city": "PORTO VELHO",
+            "instituionId": 43
+        },
+        {
+            "id": 7511,
+            "name": "BONSUCESSO",
+            "uf": "SP",
+            "city": "GUARULHOS",
+            "instituionId": 44
+        },
+        {
+            "id": 9044,
+            "name": "Brigadeiro",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 44
+        },
+        {
+            "id": 7507,
+            "name": "GUARULHOS CENTRO",
+            "uf": "SP",
+            "city": "GUARULHOS",
+            "instituionId": 44
+        },
+        {
+            "id": 7092,
+            "name": "PORTO FERREIRA",
+            "uf": "SP",
+            "city": "PORTO FERREIRA",
+            "instituionId": 45
+        },
+        {
+            "id": 7091,
+            "name": "RIO CLARO",
+            "uf": "SP",
+            "city": "RIO CLARO",
+            "instituionId": 45
+        },
+        {
+            "id": 7086,
+            "name": "UNICEP",
+            "uf": "SP",
+            "city": "SÃO CARLOS",
+            "instituionId": 45
+        },
+        {
+            "id": 9739,
+            "name": "FAMEBLU - CAMPUS II",
+            "uf": "SC",
+            "city": "BLUMENAU",
+            "instituionId": 46
+        },
+        {
+            "id": 9737,
+            "name": "FAMEBLU - CAMPUS I - UNIDADE SEDE",
+            "uf": "SC",
+            "city": "BLUMENAU",
+            "instituionId": 46
+        },
+        {
+            "id": 7431,
+            "name": "Fameblu I",
+            "uf": "SC",
+            "city": "Blumenau",
+            "instituionId": 46
+        },
+        {
+            "id": 7543,
+            "name": "ANA ROSA",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 47
+        },
+        {
+            "id": 8872,
+            "name": "FIAM-FAAM - Liberdade/Brigadeiro - Prédios 32 e 39",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 47
+        },
+        {
+            "id": 8871,
+            "name": "FIAM-FAAM - Liberdade - Prédio 7",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 47
+        },
+        {
+            "id": 9385,
+            "name": "Mantiqueira",
+            "uf": "SP",
+            "city": "São João da Boa Vista",
+            "instituionId": 48
+        },
+        {
+            "id": 7485,
+            "name": "HIGIENOPOLIS",
+            "uf": "SP",
+            "city": "São Paulo",
+            "instituionId": 49
+        },
+        {
+            "id": 7490,
+            "name": "CANOAS",
+            "uf": "RS",
+            "city": "CANOAS",
+            "instituionId": 50
+        },
+        {
+            "id": 7489,
+            "name": "FAPA",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 50
+        },
+        {
+            "id": 13988,
+            "name": "IGUATEMI",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 50
+        },
+        {
+            "id": 7493,
+            "name": "FACCAMP",
+            "uf": "SP",
+            "city": "CAMPO LIMPO PAULISTA",
+            "instituionId": 51
+        },
+        {
+            "id": 7494,
+            "name": "ISECAMP",
+            "uf": "SP",
+            "city": "CAMPO LIMPO PAULISTA",
+            "instituionId": 51
+        },
+        {
+            "id": 15456,
+            "name": "Polo - Absolute Soluções em Recursos Humanos",
+            "uf": "SP",
+            "city": "JUNDIAÍ",
+            "instituionId": 51
+        },
+        {
+            "id": 9390,
+            "name": "ENDEREÇO SEDE",
+            "uf": "SP",
+            "city": "Guarulhos",
+            "instituionId": 52
+        },
+        {
+            "id": 7506,
+            "name": "UNIDADE SEDE",
+            "uf": "SP",
+            "city": "GUARULHOS",
+            "instituionId": 52
+        },
+        {
+            "id": 7516,
+            "name": "CAPIM MACIO",
+            "uf": "RN",
+            "city": "NATAL",
+            "instituionId": 53
+        },
+        {
+            "id": 7523,
+            "name": "ADRIANÓPOLIS",
+            "uf": "AM",
+            "city": "MANAUS",
+            "instituionId": 54
+        },
+        {
+            "id": 7524,
+            "name": "SALVADOR",
+            "uf": "AM",
+            "city": "MANAUS",
+            "instituionId": 54
+        },
+        {
+            "id": 7554,
+            "name": "ARARAQUARA",
+            "uf": "SP",
+            "city": "ARARAQUARA",
+            "instituionId": 55
+        },
+        {
+            "id": 7555,
+            "name": "ASSIS",
+            "uf": "SP",
+            "city": "ASSIS",
+            "instituionId": 56
+        },
+        {
+            "id": 7556,
+            "name": "BAURU",
+            "uf": "SP",
+            "city": "BAURU",
+            "instituionId": 57
+        },
+        {
+            "id": 7558,
+            "name": "CAMPINAS-CAMBUI",
+            "uf": "SP",
+            "city": "CAMPINAS",
+            "instituionId": 58
+        },
+        {
+            "id": 7559,
+            "name": "CAMPINAS-SWIFT",
+            "uf": "SP",
+            "city": "CAMPINAS",
+            "instituionId": 59
+        },
+        {
+            "id": 7560,
+            "name": "CAMPINAS-VITALE",
+            "uf": "SP",
+            "city": "CAMPINAS",
+            "instituionId": 60
+        },
+        {
+            "id": 7567,
+            "name": "JUNDIAI",
+            "uf": "SP",
+            "city": "JUNDIAI",
+            "instituionId": 61
+        },
+        {
+            "id": 7568,
+            "name": "LIMEIRA",
+            "uf": "SP",
+            "city": "LIMEIRA",
+            "instituionId": 62
+        },
+        {
+            "id": 7569,
+            "name": "MANAUS",
+            "uf": "AM",
+            "city": "MANAUS",
+            "instituionId": 63
+        },
+        {
+            "id": 7576,
+            "name": "S J CAMPOS-DUTRA",
+            "uf": "SP",
+            "city": "SÃO JOSÉ DOS CAMPOS",
+            "instituionId": 64
+        },
+        {
+            "id": 7577,
+            "name": "S J DO RIO PARDO",
+            "uf": "SP",
+            "city": "SÃO JOSÉ DO RIO PARDO",
+            "instituionId": 65
+        },
+        {
+            "id": 9728,
+            "name": "S J DO RIO PARDO II",
+            "uf": "SP",
+            "city": "SÃO JOSÉ DO RIO PARDO",
+            "instituionId": 65
+        },
+        {
+            "id": 7578,
+            "name": "S J RIO PRETO II",
+            "uf": "SP",
+            "city": "SÃO JOSÉ DO RIO PRETO",
+            "instituionId": 66
+        },
+        {
+            "id": 7579,
+            "name": "SANTOS - CONSELHEIRO",
+            "uf": "SP",
+            "city": "SANTOS",
+            "instituionId": 67
+        },
+        {
+            "id": 7580,
+            "name": "SANTOS - PRAIA",
+            "uf": "SP",
+            "city": "SANTOS",
+            "instituionId": 68
+        },
+        {
+            "id": 7581,
+            "name": "SANTOS-RANGEL",
+            "uf": "SP",
+            "city": "SANTOS",
+            "instituionId": 69
+        },
+        {
+            "id": 7582,
+            "name": "SOROCABA",
+            "uf": "SP",
+            "city": "SOROCABA",
+            "instituionId": 70
+        },
+        {
+            "id": 7562,
+            "name": "CHACARA II",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 72
+        },
+        {
+            "id": 7563,
+            "name": "CIDADE UNIVERSITARIA",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 73
+        },
+        {
+            "id": 7566,
+            "name": "INDIANOPOLIS LGO",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 74
+        },
+        {
+            "id": 7565,
+            "name": "INDIANOPOLIS BCL",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 75
+        },
+        {
+            "id": 7570,
+            "name": "MARQUÊS",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 76
+        },
+        {
+            "id": 7571,
+            "name": "NORTE",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 77
+        },
+        {
+            "id": 7572,
+            "name": "PARAISO",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 78
+        },
+        {
+            "id": 7574,
+            "name": "PINHEIROS",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 79
+        },
+        {
+            "id": 7583,
+            "name": "TATUAPE",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 80
+        },
+        {
+            "id": 7584,
+            "name": "VERGUEIRO",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 81
+        },
+        {
+            "id": 7573,
+            "name": "PAULISTA",
+            "uf": "SP",
+            "city": "SAO PAULO",
+            "instituionId": 82
+        },
+        {
+            "id": 7551,
+            "name": "SEDE",
+            "uf": "RS",
+            "city": "SANTA MARIA",
+            "instituionId": 83
+        },
+        {
+            "id": 9449,
+            "name": "UNIDADE I",
+            "uf": "RS",
+            "city": "SANTA MARIA",
+            "instituionId": 83
+        },
+        {
+            "id": 7586,
+            "name": "JARAGUÁ DO SUL",
+            "uf": "SC",
+            "city": "JARAGUÁ DO SUL",
+            "instituionId": 84
+        },
+        {
+            "id": 16390,
+            "name": "Jaraguá do sul - Centro",
+            "uf": "SC",
+            "city": "Jaraguá do Sul",
+            "instituionId": 84
+        },
+        {
+            "id": 7587,
+            "name": "JOINVILLE",
+            "uf": "SC",
+            "city": "JOINVILLE",
+            "instituionId": 84
+        },
+        {
+            "id": 7591,
+            "name": "FAP",
+            "uf": "RO",
+            "city": "PIMENTA BUENO",
+            "instituionId": 85
+        },
+        {
+            "id": 9136,
+            "name": "CAMPUS II",
+            "uf": "RO",
+            "city": "JI-PARANÁ",
+            "instituionId": 86
+        },
+        {
+            "id": 7592,
+            "name": "UNIJIPA",
+            "uf": "RO",
+            "city": "JI-PARANÁ",
+            "instituionId": 86
+        },
+        {
+            "id": 7589,
+            "name": "UNIMETA",
+            "uf": "AC",
+            "city": "RIO BRANCO",
+            "instituionId": 87
+        },
+        {
+            "id": 7590,
+            "name": "FSP",
+            "uf": "RO",
+            "city": "Rolim de Moura",
+            "instituionId": 88
+        },
+        {
+            "id": 7615,
+            "name": "ALEXANDRE BELDI NETO",
+            "uf": "SP",
+            "city": "SOROCABA",
+            "instituionId": 89
+        },
+        {
+            "id": 7595,
+            "name": "CAXIAS DO SUL",
+            "uf": "RS",
+            "city": "CAXIAS DO SUL",
+            "instituionId": 90
+        },
+        {
+            "id": 7599,
+            "name": "ANCHIETA",
+            "uf": "SP",
+            "city": "SÃO PAULO",
+            "instituionId": 91
+        },
+        {
+            "id": 7598,
+            "name": "ALPHAVILLE",
+            "uf": "SP",
+            "city": "SANTANA DE PARNAÍBA",
+            "instituionId": 92
+        },
+        {
+            "id": 7600,
+            "name": "ARAÇATUBA",
+            "uf": "SP",
+            "city": "ARAÇATUBA",
+            "instituionId": 93
+        },
+        {
+            "id": 7609,
+            "name": "UNIDADE I - CENTRO",
+            "uf": "TO",
+            "city": "ARAGUAÍNA",
+            "instituionId": 94
+        },
+        {
+            "id": 8036,
+            "name": "UNIDADE II - LUIS PIRES",
+            "uf": "TO",
+            "city": "ARAGUAÍNA",
+            "instituionId": 94
+        },
+        {
+            "id": 7613,
+            "name": "SÃO JOSÉ DO RIO PRETO",
+            "uf": "SP",
+            "city": "SÃO JOSÉ DO RIO PRETO",
+            "instituionId": 95
+        },
+        {
+            "id": 7616,
+            "name": "PORTO ALEGRE",
+            "uf": "RS",
+            "city": "PORTO ALEGRE",
+            "instituionId": 96
+        },
+        {
+            "id": 7750,
+            "name": "CANDEIAS",
+            "uf": "BA",
+            "city": "VITÓRIA DA CONQUISTA",
+            "instituionId": 97
+        },
+        {
+            "id": 9398,
+            "name": "CAMPUS - RIO BRANCO - JARDIM PRIMAVERA",
+            "uf": "AC",
+            "city": "Rio Branco",
+            "instituionId": 98
+        },
+        {
+            "id": 7735,
+            "name": "FAAO",
+            "uf": "AC",
+            "city": "RIO BRANCO",
+            "instituionId": 98
+        },
+        {
+            "id": 7760,
+            "name": "FACEP",
+            "uf": "RN",
+            "city": "PAU DOS FERROS",
+            "instituionId": 99
+        },
+        {
+            "id": 7761,
+            "name": "SEDE - RUA GASTÃO GONÇALVES",
+            "uf": "RJ",
+            "city": "NITERÓI",
+            "instituionId": 100
+        }
+    ]
+}

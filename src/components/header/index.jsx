@@ -1,9 +1,9 @@
 import './style.css';
 
-function Header(){
+function Header({className}){
     return(
         <header className='header'>
-            <img src='https://www.pravaler.com.br/cdn/images/logo.svg' alt='Logo pravaler' className='logo'/>
+            <img src='https://www.pravaler.com.br/cdn/images/logo.svg' alt='Logo pravaler' className={className}/>
         </header>
     );
 }

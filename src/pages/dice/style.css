@@ -1,0 +1,46 @@
+.logo-dice {
+    width: 60%;
+}
+
+.subtitle{
+    color: #FF6316;
+    margin: 1%;
+}
+
+.input-form{
+    width: 50%;
+    padding: 5px 5px;
+    margin: 0.5em 2em;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #FA5631;
+    color: var(--white);
+}
+
+.course-name{
+    align-self: start;
+    margin-left: 25%;
+}
+
+.course-link{
+    text-decoration: none;
+}
+
+.city-uf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: .5em 1em;
+}
+
+.uf {
+    width: 10%;
+}
+
+.button-registration{
+    padding: 0.7% 1%;
+    font-size: medium;
+    font-weight: normal;
+}
