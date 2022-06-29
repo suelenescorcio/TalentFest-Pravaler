@@ -1,4 +1,6 @@
-function Table() {
+import Button from '../button';
+
+function Table({course,onClick}) {
   return (
     <>
       <table>
@@ -14,18 +16,18 @@ function Table() {
             <th className="th">Quero Esse</th>
           </tr>
         </thead>
-        {/* <tbody>
+        <tbody>
         <tr>
-            <td>{course.name}</td>
-            <td>{course.instituionId}</td>
-            <td>{course.campusId}</td>
-            <td>{course.monthly_payment}</td>
-            <td>{course.mec_avaliation}</td>
-            <td>{course.semesters}</td>
-            <td>{course.salary_range}</td>
-            <td>Botão</td>
+            <td>{course.name ? course.name : ''}</td>
+            <td>{course.instituionId ? course.instituionId : ''}</td>
+            <td>{course.campusId ? course.campusId: ''}</td>
+            <td>{course.monthly_payment ? course.monthly_payment : ''}</td>
+            <td>{course.mec_avaliation ? course.mec_avaliation : ''}</td>
+            <td>{course.semesters ? course.semesters : ''}</td>
+            <td>{course.salary_range ? course.salary_range : ''}</td>
+            <td><Button type='click' onClick={onClick} className='button-select' >Selecionar</Button></td>
         </tr>
-        </tbody> */}
+        </tbody>
       </table>
     </>
   );
