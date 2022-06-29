@@ -1,7 +1,9 @@
+import './style.css';
+
 function Select({ onChange, options }) {
   return (
     <>
-      <select onChange={onChange}>
+      <select onChange={onChange} className='select-option'>
       <option value="" disabled>
           Selecione
         </option>
