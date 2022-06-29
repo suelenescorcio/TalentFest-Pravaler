@@ -5,16 +5,25 @@
     flex-direction:row;
     flex-wrap: wrap;
     margin: 0.5%;
-    padding: 1%;
+    padding: 0.9%;
 }
 
 .card-courses p {
-  margin: 1.5%;
+  margin: 2%;
+}
+
+.card-courses span {
+    font-weight: bold;
 }
 
 .button-course {
+    cursor: pointer;
     background-color: #FF6315;
     border: black;
     color: white;
-    margin: 2% auto;
+    margin: auto;
+    padding: 3%;
+    width: 60%;
+    height: fit-content;
+    align-self: center;
 }

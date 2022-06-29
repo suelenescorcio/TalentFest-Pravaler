@@ -3,8 +3,8 @@
 }
 
 .section-cards {
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2.5%;
     flex-wrap: wrap;
 }
