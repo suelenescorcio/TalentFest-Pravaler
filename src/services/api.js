@@ -14,3 +14,12 @@ export const getInstitutions = () => {
   });
 };
 
+export const getCourses = () => {
+  return fetch ('./courses.json', {
+    headers:{
+      'Accept': 'application/json'
+    }
+  });
+};
+
+
