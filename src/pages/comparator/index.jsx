@@ -51,9 +51,9 @@ function Comparator() {
         className="search-input"
         />
       <Select options={dataStates} />
-        {/* <section className='section-cards'> */}
+        <section className='section-cards'>
       <CoursesCard courses={courses} />
-      {/* </section> */}
+      </section>
       </main>
     </>
   );
