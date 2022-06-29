@@ -4,6 +4,7 @@ import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
 import { getCourses, getStates } from '../../services/api';
 import Select from '../../components/select';
+import Table from '../../components/table';
 import './style.css';
 
 function Comparator() {
@@ -12,8 +13,10 @@ function Comparator() {
   const [text, setText] = useState('');
 
   function filterCourses(data, text) {
-    let courseFiltered = data.filter((course) => course.name === text);
-    console.log(courseFiltered);
+    let courseFiltered = data.filter((response) => response.name.includes(text));
+    //setCourses([...courseFiltered]);
+    return courseFiltered;
+    //console.log(courseFiltered);
   }
 
   useEffect(() => {
@@ -29,14 +32,12 @@ function Comparator() {
   useEffect(() => {
     getCourses()
       .then((response) => response.json())
-      .then((data) => {
-        setCourses(data.courses);
+      .then((response) => {
+        setCourses(response.courses);
         filterCourses(courses, text);
       });
   }, [text]);
 
-  // console.log(institutions);
-  filterCourses(courses, 'Administração');
 
 
   return (
@@ -51,6 +52,7 @@ function Comparator() {
         className="search-input"
         />
       <Select options={dataStates} />
+      <Table />
         <section className='section-cards'>
       <CoursesCard courses={courses} />
       </section>
