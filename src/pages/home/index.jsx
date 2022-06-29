@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import InfoCard from '../../components/infoCards';
+import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Button from '../../components/button';
 import { BiDownArrowAlt } from 'react-icons/bi';
@@ -73,6 +74,7 @@ function Home() {
       >
         Comparar os cursos
       </Button>
+      <Footer></Footer>
     </main>
   );
 }

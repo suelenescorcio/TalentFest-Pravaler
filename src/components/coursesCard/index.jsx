@@ -5,7 +5,7 @@ function CoursesCard({ institutions }) {
     <>
       <li>
         <p>Faculdade: {institution.name}</p>
-        {institution.map((info) => {
+        {/* {institution.map((info) => {
           <p>Cidade/UF: {info.city / info.uf}</p>;
           {
             info.map((course) => {
@@ -21,8 +21,7 @@ function CoursesCard({ institutions }) {
                 </>
               );
             });
-          }
-        })}
+          } */}
       </li>
     </>;
   });
