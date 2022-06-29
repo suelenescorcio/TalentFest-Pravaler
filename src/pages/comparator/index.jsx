@@ -4,6 +4,7 @@ import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
 import { getCourses, getStates } from '../../services/api';
 import Select from '../../components/select';
+import Table from '../../components/table';
 import './style.css';
 
 function Comparator() {
@@ -51,6 +52,7 @@ function Comparator() {
         className="search-input"
         />
       <Select options={dataStates} />
+      <Table />
         {/* <section className='section-cards'> */}
       <CoursesCard courses={courses} />
       {/* </section> */}
