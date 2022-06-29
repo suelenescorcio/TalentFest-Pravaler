@@ -9,7 +9,7 @@ function Home() {
   const navigate = useNavigate();
   return (
     <main className='main-section'>
-      <Header />
+      <Header className='logo-home'/>
       <section className='about-section'>
       <InfoCard className='about orange'>
         <h1>Sobre o Pravaler</h1>

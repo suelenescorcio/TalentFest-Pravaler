@@ -1,12 +1,12 @@
-// import "./style.css";
+import './style.css';
 import Button from '../button';
 
 function CoursesCard({courses, onclick}) {
   return (
-    <div>
-      {courses.map((course, key) => {
+    // <div className='card-courses'>
+      courses.map((course, key) => {
           return (
-            <li key={key}>
+            <li className='card-courses' key={key}>
               <p>Nome do Curso: {course.name}</p>
               <p>Descrição: {course.description}</p>
               <p>Semestres: {course.semesters}</p>
@@ -17,8 +17,8 @@ function CoursesCard({courses, onclick}) {
             </li>
           );
         })
-      };
-    </div>
+      
+    // </div>
   );
 }
 

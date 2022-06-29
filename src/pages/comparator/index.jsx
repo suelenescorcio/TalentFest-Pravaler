@@ -4,6 +4,7 @@ import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
 import { getCourses, getStates } from '../../services/api';
 import Select from '../../components/select';
+import './style.css';
 
 function Comparator() {
   const [dataStates, setDataStates] = useState([]);
@@ -40,16 +41,20 @@ function Comparator() {
 
   return (
     <>
-      <Header className="" />
+    <main>
+      <Header className="logo-comparator" />
       <Input
         type="search"
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Pesquise o curso ou a instituição"
         className="search-input"
-      />
+        />
       <Select options={dataStates} />
+        {/* <section className='section-cards'> */}
       <CoursesCard courses={courses} />
+      {/* </section> */}
+      </main>
     </>
   );
 }
