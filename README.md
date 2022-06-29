@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Desenvolvimento web (MVP) : Comparador de Cursos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pravaler
+<img src="assets/logo.png">
 
-## Available Scripts
+Nossa equipe de Desenvolvedoras recebeu a tarefa enviada pela empresa Pravaler , onde deveriamos criar uma aplicação viável em que  o aluno possa saber como funciona o crédito, o que ele precisa fazer para contratá-lo, apresentar
+o comparador de cursos e encorajá-lo a usar, exibindo na tela funçoes de escolhe filtrando as principais informações requeridas pelo usuário. Ressaltando que este projeto foi desenvolvido especialmente para o Talent fest da Laboratória brasil , onde as empresas lançam desafios  e as desenvolvedoras  formadas tem apenas quatro dia pra entregar a solução, sendo tambem as apresentações transmitida via  Yutube.
 
-In the project directory, you can run:
+## 1. Planejamento e Organização
 
-### `npm start`
+O projeto foi desenvolvido por cinco mulheres desenvolvedoras front end contudo implementamos as medotodogias ágeis, e a principal ferramenta utilizada para nossa organização foi o Trello.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Nele trabalhamos cada história de usuário e esmiuçamos em Baby Steps, o que facilitou muito a nossa comunicação e desenvolvimento.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Outro ponto bastante positivo, foi que procuramos fazer o projeto na sua grande maioria em pair programming, o que nos ajudou a chegarmos ainda mais perto do resultado esperado.
 
-### `npm test`
+<img src="assets/trello.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2. Protótipo de Alta Fidelidade
 
-### `npm run build`
+O protótipo de alta fidelidade foi desenvolvido na ferramenta do Figma.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="assets/tela1.png">
+<img src="assets/tela2.png">
+<img src="assets/tela3.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Paleta de Cores
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Nossa paleta de cores foi inspirada no Logo da  empresa .
 
-### `npm run eject`
+<img src="assets/paletadecores.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Critérios de aceitação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Interface que defina a finalidade da aplicação.
+- [x] Opção de comparar dos cursos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Definição de conteúdo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Utilizamos  uma API com os dados que poderão ser utilizados para a comparação , disponibilizada pela Pravaler com os seguintes dados, onde usuário poderá filtrar os cursos escolhidos.
+São eles:
+• Nome do curso
+• Nome da faculdade (IES)
+• Descrição do curso
+• Quantidade de semestres
+• Mensalidade
+• Nota do mec
+• Faixa salarial
+• Cidade / UF
+• Comentários
+Nesta tela, deve ser possível refazer a escolha das opções (limpar selecionados
+anteriormente e escolher novos).
+Caso o aluno tenha interesse em um dos cursos apresentados, deve ter a opção de um botão
+“quero esse”.
+- Página dos dados pessoais
+ - Ao clicar no botão “quero este”, o aluno deve ser direcionado para uma página de contato,
+onde conterá infomações do curso selecionado e um formulário para o preenchimento dos
 
-## Learn More
+#### Critérios de aceitação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] Opção de cadastro.
+- [x] Voltar para a página de login.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Critérios de aceitação
 
-### Code Splitting
+- [x] Campo de pesquisa
+- [x] Campo para para filtro de cursos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 4. Tecnologias Utilizadas
 
-### Analyzing the Bundle Size
+- React
+- Git
+- Css
+- Eslint
+- GitHub
+- Figma
+- Slack
+- Trello
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 5. Considerações
 
-### Making a Progressive Web App
+Aplicação desenvolvida por [Suelen Escorcio](https://github.com/suelenescorcio), [_Leticia Antunes_](https://github.com/leticiaantunesjpeg)  [_Flavia Dantas_](https://github.com/flavia-dantas) , [_Vanessa Borges_](https://github.com/vanessavb92) , e [_Julia Benedicto_](https://github.com/juliabb) .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 6. Agradecimentos
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Agradecimentos especiais a equipe de programadores do Pravaler ao apoio a nossa equipe, que nos deu total suporte durante o desafio.
+- Agradecimento especial a Marcela Godoy e Leticia cipriano , que nos acompanhou em todo desafio.
