@@ -3,9 +3,13 @@
     width: 19%;
     display: flex;
     flex-direction:row;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     margin: 0.5%;
     padding: 1%;
+}
+
+.card-courses p {
+  margin: 1.5%;
 }
 
 .button-course {
