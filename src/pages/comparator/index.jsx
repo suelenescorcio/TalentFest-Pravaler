@@ -14,7 +14,7 @@ function Comparator() {
 
   function filterCourses(data, text) {
     let courseFiltered = data.filter((response) => response.name.includes(text));
-    //setCourses([...courseFiltered]);
+    setCourses(courseFiltered);
     return courseFiltered;
     //console.log(courseFiltered);
   }
@@ -34,11 +34,13 @@ function Comparator() {
       .then((response) => response.json())
       .then((response) => {
         setCourses(response.courses);
-        filterCourses(courses, text);
       });
-  }, [text]);
+  }, []);
 
-
+ const handleInput = (e) => {
+    setText(e.target.value);
+    filterCourses(courses, text);
+  };
 
   return (
     <>
@@ -47,7 +49,7 @@ function Comparator() {
       <Input
         type="search"
         value={text}
-        onChange={(e) => setText(e.target.value)}
+        onChange={handleInput}
         placeholder="Pesquise o curso ou a instituição"
         className="search-input"
         />
