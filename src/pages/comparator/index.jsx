@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
-import { getCourses, getInstitutions, getStates } from '../../services/api';
+import { getCampus, getCourses, getInstitutions, getStates } from '../../services/api';
 import Select from '../../components/select';
 import Table from '../../components/table';
 import Footer from '../../components/footer';
@@ -10,9 +10,11 @@ import Button from '../../components/button';
 import './style.css';
 
 function Comparator() {
+
   const [dataStates, setDataStates] = useState([]);
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
+  const [campus, setCampus] = useState([]);
   const [courseSelected, setCourseSelected] = useState([]);
   const [text, setText] = useState('');
 
@@ -31,6 +33,16 @@ function Comparator() {
       .then((data) => {
         const dataInstitution = data.institutions;
         setInstitutions(dataInstitution);
+        // console.log(data, 'data');
+      });
+  }, []);
+
+  useEffect(() => {
+    getCampus()
+      .then((response) => response.json())
+      .then((data) => {
+        const dataCampus = data.campus;
+        setCampus(dataCampus);
         // console.log(data, 'data');
       });
   }, []);
@@ -67,17 +79,15 @@ function Comparator() {
       });
   };
 
-  const handleCourse = (course) => {
-    const courseFind = courses.find((item) => item.id === course.id);
-    // setCourseSelected([...course]);
-    if (courseFind) {
-      courseFind.name += 1;
-    } else {
-      course.name = 1;
-      courses.push(course);
-    }
-    setCourseSelected([...courses]);
-  };
+  // const handleCourse = (course) => {
+  //   console.log('Entrei', course);
+  //   // console.log('clicou', course.name);
+  //   const courseFind = courses.filter((item) => item.id === course.id);
+  //   console.log(courseFind,'courseFind');
+  //   if(courseFind){
+  //     setCourseSelected([...courseSelected, courseFind]);
+  //   }
+  // };
 
   return (
     <>
@@ -92,18 +102,20 @@ function Comparator() {
             className="search-input"
           />
           <Select options={institutions} />
-          <Select options={dataStates} />
+        <Select options={campus} />
+        <Select options={dataStates} />
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos
           </Button>
         </section>
-        {courseSelected.map((course) => {
-          <Table course={course} />;
-        })}
+
+          <Table arrCourse={courseSelected} />
+
         <section className="section-cards">
           <CoursesCard
             courses={courses}
-            onclick={() => handleCourse(courses)}
+            courseSelected={courseSelected}
+            setCourseSelected={setCourseSelected}
           />
         </section>
         <Footer />
