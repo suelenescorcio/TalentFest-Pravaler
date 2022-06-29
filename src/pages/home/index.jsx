@@ -10,13 +10,13 @@ function Home() {
   const navigate = useNavigate();
   return (
     <main className='main-section'>
-      <Header />
+      <Header className='logo-home'/>
       <section className='about-section'>
       <InfoCard className='about orange'>
         <h1>Sobre o Pravaler</h1>
         <p>
           O PRAVALER é uma fintech de soluções financeiras que facilita o acesso
-          à educação no Brasil. So mos para calouros e também pra veteranos! Vem
+          à educação no Brasil. Somos para calouros e também pra veteranos! Vem
           com a gente!
         </p>
         <p>

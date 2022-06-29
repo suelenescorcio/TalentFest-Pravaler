@@ -1,0 +1,946 @@
+{
+    "institutions": [
+        {
+            "id": 1,
+            "name": "UNISUL",
+            "states": {
+                "SC": [
+                    "ARARANGUÁ",
+                    "BALNEÁRIO CAMBORIÚ",
+                    "BRAÇO DO NORTE"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "CASTELO BRANCO",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "CRUZEIRO DO SUL",
+            "states": {
+                "SP": [
+                    "SÃO PAULO",
+                    "GUARULHOS"
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "name": "UNISOCIESC",
+            "states": {
+                "SC": [
+                    "JOINVILLE",
+                    "BLUMENAU",
+                    "JARAGUÁ DO SUL"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "UCAM",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO",
+                    "ARARUAMA",
+                    "NOVA FRIBURGO"
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "UNESC",
+            "states": {
+                "SC": [
+                    "CRICIÚMA"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "name": "UNICID",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "name": "UVA",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO",
+                    "CABO FRIO"
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "ANHEMBI MORUMBI",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "name": "UNIGRANRIO",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO",
+                    "NOVA IGUAÇU"
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "name": "UNISINOS",
+            "states": {
+                "RS": [
+                    "PORTO ALEGRE",
+                    "SÃO LEOPOLDO"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "name": "UNIVILLE",
+            "states": {
+                "SC": [
+                    "SÃO BENTO DO SUL",
+                    "SÃO FRANCISCO DO SUL",
+                    "JOINVILLE"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "name": "METODISTA SBC",
+            "states": {
+                "SP": [
+                    "BAURU",
+                    "BERTIOGA",
+                    "BIRIGUI"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "UNP",
+            "states": {
+                "RN": [
+                    "CAICO",
+                    "CURRAIS NOVOS",
+                    "PAU DOS FERROS"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "name": "UNIMEP",
+            "states": {
+                "SP": [
+                    "LINS",
+                    "PIRACICABA",
+                    "SANTA BARBARA D´OESTE"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "UNISC",
+            "states": {
+                "RS": [
+                    "CAPÃO DA CANOA",
+                    "MONTENEGRO",
+                    "SANTA CRUZ DO SUL"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "name": "UNAERP",
+            "states": {
+                "SP": [
+                    "GUARUJÁ"
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "name": "UNOCHAPECÓ",
+            "states": {
+                "SC": [
+                    "CHAPECÓ",
+                    "SÃO LOURENÇO"
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "name": "UPF",
+            "states": {
+                "RS": [
+                    "CARAZINHO",
+                    "CASCA",
+                    "PASSO FUNDO"
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "name": "MACKENZIE",
+            "states": {
+                "SP": [
+                    "BARUERI",
+                    "CAMPINAS",
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "UNICARIOCA",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO"
+                ]
+            }
+        },
+        {
+            "id": 22,
+            "name": "UNIFACS",
+            "states": {
+                "BA": [
+                    "SANTO ANTÔNIO DE JESUS",
+                    "BAHIA"
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "name": "MACKENZIE RIO",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO"
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "name": "FADERGS",
+            "states": {
+                "RS": [
+                    "PORTO ALEGRE"
+                ]
+            }
+        },
+        {
+            "id": 25,
+            "name": "UNILASALLE",
+            "states": {
+                "RS": [
+                    "CANOAS"
+                ]
+            }
+        },
+        {
+            "id": 26,
+            "name": "IBMR",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO"
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "name": "BRAZCUBAS",
+            "states": {
+                "SP": [
+                    "MOGI DAS CRUZES"
+                ]
+            }
+        },
+        {
+            "id": 28,
+            "name": "UNIJORGE",
+            "states": {
+                "BA": [
+                    "SALVADOR",
+                    ""
+                ]
+            }
+        },
+        {
+            "id": 29,
+            "name": "UNIRUY",
+            "states": {
+                "BA": [
+                    "SALVADOR"
+                ]
+            }
+        },
+        {
+            "id": 30,
+            "name": "ESTÁCIO",
+            "states": {
+                "BA": [
+                    "ALAGOINHAS"
+                ],
+                "RJ": [
+                    "SÃO GONÇALO",
+                    "ANGRA DOS REIS"
+                ]
+            }
+        },
+        {
+            "id": 31,
+            "name": "UNIT SE",
+            "states": {
+                "SE": [
+                    "ARACAJU",
+                    "ESTÂNCIA"
+                ]
+            }
+        },
+        {
+            "id": 32,
+            "name": "UNIT AL",
+            "states": {
+                "AL": [
+                    "MACEIÓ"
+                ]
+            }
+        },
+        {
+            "id": 33,
+            "name": "FASS",
+            "states": {
+                "SP": [
+                    "SÃO SEBASTIÃO"
+                ]
+            }
+        },
+        {
+            "id": 34,
+            "name": "IBTA SP",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 35,
+            "name": "UNINTER",
+            "states": {
+                "SC": [
+                    "ABELARDO LUZ"
+                ],
+                "BA": [
+                    "ALAGOINHAS"
+                ],
+                "RS": [
+                    "ALEGRETE"
+                ]
+            }
+        },
+        {
+            "id": 36,
+            "name": "CEUNSP",
+            "states": {
+                "SP": [
+                    "ITU",
+                    "SALTO"
+                ]
+            }
+        },
+        {
+            "id": 37,
+            "name": "UNIFRAN",
+            "states": {
+                "SP": [
+                    "FRANCA"
+                ]
+            }
+        },
+        {
+            "id": 38,
+            "name": "UNISUAM",
+            "states": {
+                "RJ": [
+                    "RIO DE JANEIRO"
+                ]
+            }
+        },
+        {
+            "id": 39,
+            "name": "UNISALESIANO ARAÇATUBA",
+            "states": {
+                "SP": [
+                    "ARAÇATUBA"
+                ]
+            }
+        },
+        {
+            "id": 40,
+            "name": "USJT",
+            "states": {
+                "SP": [
+                    "SÃO PAULO",
+                    "GUARULHOS"
+                ]
+            }
+        },
+        {
+            "id": 41,
+            "name": "ESTÁCIO",
+            "states": {
+                "SP": [
+                    "SÃO JOSÉ DO RIO PRETO",
+                    "SÃO PAULO"
+                ],
+                "SC": [
+                    "ABELARDO LUZ"
+                ]
+            }
+        },
+        {
+            "id": 42,
+            "name": "IBMEC SP",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 43,
+            "name": "SÃO LUCAS",
+            "states": {
+                "RO": [
+                    "PORTO VELHO",
+                    "JI-PARANÁ"
+                ]
+            }
+        },
+        {
+            "id": 44,
+            "name": "UNG GUARULHOS",
+            "states": {
+                "SP": [
+                    "GUARULHOS",
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 45,
+            "name": "UNICEP",
+            "states": {
+                "SP": [
+                    "PORTO FERREIRA",
+                    "RIO CLARO",
+                    "SÃO CARLOS"
+                ]
+            }
+        },
+        {
+            "id": 46,
+            "name": "FAMEBLU",
+            "states": {
+                "SC": [
+                    "BLUMENAU"
+                ]
+            }
+        },
+        {
+            "id": 47,
+            "name": "FMU",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 48,
+            "name": "UNIFEOB",
+            "states": {
+                "SP": [
+                    "SÃO JOÃO DA BOA VISTA"
+                ]
+            }
+        },
+        {
+            "id": 49,
+            "name": "FAAP",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 50,
+            "name": "UNIRITTER",
+            "states": {
+                "RS": [
+                    "CANOAS",
+                    "PORTO ALEGRE"
+                ]
+            }
+        },
+        {
+            "id": 51,
+            "name": "FACCAMP",
+            "states": {
+                "SP": [
+                    "CAMPO LIMPO PAULISTA",
+                    "JUNDIAÍ"
+                ]
+            }
+        },
+        {
+            "id": 52,
+            "name": "ENIAC",
+            "states": {
+                "SP": [
+                    "GUARULHOS"
+                ]
+            }
+        },
+        {
+            "id": 53,
+            "name": "UNIFACEX",
+            "states": {
+                "RN": [
+                    "NATAL"
+                ]
+            }
+        },
+        {
+            "id": 54,
+            "name": "FMF",
+            "states": {
+                "AM": [
+                    "MANAUS"
+                ]
+            }
+        },
+        {
+            "id": 55,
+            "name": "UNIP ARARAQUARA",
+            "states": {
+                "SP": [
+                    "ARARAQUARA"
+                ]
+            }
+        },
+        {
+            "id": 56,
+            "name": "UNIP ASSIS",
+            "states": {
+                "SP": [
+                    "ASSIS"
+                ]
+            }
+        },
+        {
+            "id": 57,
+            "name": "UNIP BAURU",
+            "states": {
+                "SP": [
+                    "BAURU"
+                ]
+            }
+        },
+        {
+            "id": 58,
+            "name": "UNIP CAMPINAS CAMBUÍ",
+            "states": {
+                "SP": [
+                    "CAMPINAS"
+                ]
+            }
+        },
+        {
+            "id": 59,
+            "name": "UNIP CAMPINAS SWIFT",
+            "states": {
+                "SP": [
+                    "CAMPINAS"
+                ]
+            }
+        },
+        {
+            "id": 60,
+            "name": "UNIP CAMPINAS VITALE",
+            "states": {
+                "SP": [
+                    "CAMPINAS"
+                ]
+            }
+        },
+        {
+            "id": 61,
+            "name": "UNIP JUNDIAÍ",
+            "states": {
+                "SP": [
+                    "JUNDIAI"
+                ]
+            }
+        },
+        {
+            "id": 62,
+            "name": "UNIP LIMEIRA",
+            "states": {
+                "SP": [
+                    "LIMEIRA"
+                ]
+            }
+        },
+        {
+            "id": 63,
+            "name": "UNIP MANAUS",
+            "states": {
+                "AM": [
+                    "MANAUS"
+                ]
+            }
+        },
+        {
+            "id": 64,
+            "name": "UNIP S J DOS CAMPOS DUTRA",
+            "states": {
+                "SP": [
+                    "SÃO JOSÉ DOS CAMPOS"
+                ]
+            }
+        },
+        {
+            "id": 65,
+            "name": "UNIP S J RIO PARDO",
+            "states": {
+                "SP": [
+                    "SÃO JOSÉ DO RIO PARDO"
+                ]
+            }
+        },
+        {
+            "id": 66,
+            "name": "UNIP S J RIO PRETO II",
+            "states": {
+                "SP": [
+                    "SÃO JOSÉ DO RIO PRETO"
+                ]
+            }
+        },
+        {
+            "id": 67,
+            "name": "UNIP SANTOS CONSELHEIRO",
+            "states": {
+                "SP": [
+                    "SANTOS"
+                ]
+            }
+        },
+        {
+            "id": 68,
+            "name": "UNIP SANTOS PRAIA",
+            "states": {
+                "SP": [
+                    "SANTOS"
+                ]
+            }
+        },
+        {
+            "id": 69,
+            "name": "UNIP SANTOS RANGEL",
+            "states": {
+                "SP": [
+                    "SANTOS"
+                ]
+            }
+        },
+        {
+            "id": 70,
+            "name": "UNIP SOROCABA",
+            "states": {
+                "SP": [
+                    "SOROCABA"
+                ]
+            }
+        },
+        {
+            "id": 72,
+            "name": "UNIP CHÁCARA II",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 73,
+            "name": "UNIP CIDADE UNIVERSITÁRIA",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 74,
+            "name": "UNIP INDIANÓPOLIS",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 75,
+            "name": "UNIP INDIANÓPOLIS BCL",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 76,
+            "name": "UNIP MARQUES",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 77,
+            "name": "UNIP NORTE",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 78,
+            "name": "UNIP PARAÍSO",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 79,
+            "name": "UNIP PINHEIROS",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 80,
+            "name": "UNIP TATUAPÉ",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 81,
+            "name": "UNIP VERGUEIRO",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 82,
+            "name": "UNIP PAULISTA",
+            "states": {
+                "SP": [
+                    "SAO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 83,
+            "name": "FISMA",
+            "states": {
+                "RS": [
+                    "SANTA MARIA"
+                ]
+            }
+        },
+        {
+            "id": 84,
+            "name": "CATÓLICA SANTA CATARINA",
+            "states": {
+                "SC": [
+                    "JARAGUÁ DO SUL",
+                    "JOINVILLE"
+                ]
+            }
+        },
+        {
+            "id": 85,
+            "name": "FAP",
+            "states": {
+                "RO": [
+                    "PIMENTA BUENO"
+                ]
+            }
+        },
+        {
+            "id": 86,
+            "name": "UNIJIPA",
+            "states": {
+                "RO": [
+                    "JI-PARANÁ"
+                ]
+            }
+        },
+        {
+            "id": 87,
+            "name": "FAMETA",
+            "states": {
+                "AC": [
+                    "RIO BRANCO"
+                ]
+            }
+        },
+        {
+            "id": 88,
+            "name": "FSP",
+            "states": {
+                "RO": [
+                    "ROLIM DE MOURA"
+                ]
+            }
+        },
+        {
+            "id": 89,
+            "name": "FACENS",
+            "states": {
+                "SP": [
+                    "SOROCABA"
+                ]
+            }
+        },
+        {
+            "id": 90,
+            "name": "FSG CAXIAS DO SUL",
+            "states": {
+                "RS": [
+                    "CAXIAS DO SUL"
+                ]
+            }
+        },
+        {
+            "id": 91,
+            "name": "UNIP ANCHIETA",
+            "states": {
+                "SP": [
+                    "SÃO PAULO"
+                ]
+            }
+        },
+        {
+            "id": 92,
+            "name": "UNIP ALPHAVILLE",
+            "states": {
+                "SP": [
+                    "SANTANA DE PARNAÍBA"
+                ]
+            }
+        },
+        {
+            "id": 93,
+            "name": "UNIP ARAÇATUBA",
+            "states": {
+                "SP": [
+                    "ARAÇATUBA"
+                ]
+            }
+        },
+        {
+            "id": 94,
+            "name": "FACIT",
+            "states": {
+                "TO": [
+                    "ARAGUAÍNA"
+                ]
+            }
+        },
+        {
+            "id": 95,
+            "name": "UNILAGO",
+            "states": {
+                "SP": [
+                    "SÃO JOSÉ DO RIO PRETO"
+                ]
+            }
+        },
+        {
+            "id": 96,
+            "name": "SÃO JUDAS TADEU",
+            "states": {
+                "RS": [
+                    "PORTO ALEGRE"
+                ]
+            }
+        },
+        {
+            "id": 97,
+            "name": "FAINOR",
+            "states": {
+                "BA": [
+                    "VITÓRIA DA CONQUISTA"
+                ]
+            }
+        },
+        {
+            "id": 98,
+            "name": "FAC DA AMAZONIA OCIDENTAL",
+            "states": {
+                "AC": [
+                    "RIO BRANCO"
+                ]
+            }
+        },
+        {
+            "id": 99,
+            "name": "FACEP",
+            "states": {
+                "RN": [
+                    "PAU DOS FERROS"
+                ]
+            }
+        },
+        {
+            "id": 100,
+            "name": "LA SALLE RJ",
+            "states": {
+                "RJ": [
+                    "NITERÓI"
+                ]
+            }
+        }
+    ]
+}

@@ -2,43 +2,61 @@ import { useEffect, useState } from 'react';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
-// import Select from '../../components/select';
-import { getInstitutions } from '../../services/api';
+import { getCourses, getStates } from '../../services/api';
+import Select from '../../components/select';
+import Table from '../../components/table';
+import './style.css';
 
 function Comparator() {
-  //const [dataStates, setDataStates] = useState([]);
-  const [institutions, setInstitutions] = useState([]);
+  const [dataStates, setDataStates] = useState([]);
+  const [courses, setCourses] = useState([]);
   const [text, setText] = useState('');
 
   function filterCourses(data, text) {
     let courseFiltered = data.filter((response) => response.name.includes(text));
+    //setCourses([...courseFiltered]);
     return courseFiltered;
     //console.log(courseFiltered);
   }
 
   useEffect(() => {
-    getInstitutions()
+    getStates()
+    .then((response) => response.json())
+    .then((data) => {
+      const states = data.states;
+      setDataStates(states);
+      console.log(data, 'data');
+    });
+  }, []);
+
+  useEffect(() => {
+    getCourses()
       .then((response) => response.json())
       .then((response) => {
-        setInstitutions(response.institutions);
-        filterCourses(institutions, text);
+        setCourses(response.courses);
+        filterCourses(courses, text);
       });
   }, [text]);
 
-  // console.log(institutions);
-  //filterCourses(institutions, 'UNISUL');
+
 
   return (
     <>
-      <Header className="" />
+    <main>
+      <Header className="logo-comparator" />
       <Input
         type="search"
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Pesquise o curso ou a instituição"
         className="search-input"
-      />
-      <CoursesCard institutions={institutions} />
+        />
+      <Select options={dataStates} />
+      <Table />
+        {/* <section className='section-cards'> */}
+      <CoursesCard courses={courses} />
+      {/* </section> */}
+      </main>
     </>
   );
 }
