@@ -85,6 +85,6 @@ Aplicação desenvolvida por [Suelen Escorcio](https://github.com/suelenescorcio
 ## 6. Agradecimentos
 
 - Agradecimentos especiais a equipe de programadores do Pravaler  ao apoio a nossa equipe, que nos deu total suporte durante o desafio do talent fest Brasil.
-- Agradecimento especial a Marcela Godoy e Leticia cipriano , que nos acompanhou em todo desafio.
+- Agradecimento especial a Marcela Godoy e Leticia Cipriano, que nos acompanhou em todo desafio.
 
 ![](src/assets/tanks.png)
