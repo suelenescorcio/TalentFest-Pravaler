@@ -4,23 +4,24 @@ thead {
 
 tbody {
     background-color: #DCC0FB;
-    border-collapse:collapse;
 }
 
 td {
     text-align: center;
+    width: 12.5%;
 }
 
 th {
-    width: 25%;
+    width: 12.5%;
 }
 
 tr {
-    width: 25%;
+    width: 12.5%;
 }
 
 table {
     padding: 4%;
+    width: 80%;
 }
 
 .button-select {

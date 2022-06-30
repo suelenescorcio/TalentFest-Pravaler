@@ -1,15 +1,13 @@
-// import { useNavigate } from 'react-router-dom';
-import Button from '../button';
+import { useNavigate } from 'react-router-dom';
 import './style.css';
 
 function Table({ arrCourse }) {
-    // const navigate = useNavigate();
-    // navigate('/dice');
+    const navigate = useNavigate();
     
-    // function nameCourse(courseSelected) {
-    //     localStorage.setItem('Name', courseSelected.name);
-    //     console.log('Name', courseSelected.name);
-    //   }
+    function nameCourse(courseSelectedee) {
+      navigate('/dice');
+      localStorage.setItem('Name', courseSelectedee.name);
+      }
   
   return (
     <>
@@ -38,13 +36,13 @@ function Table({ arrCourse }) {
                 <td>{course.semesters}</td>
                 <td>R$ {course.salary_range}</td>
                 <td>
-                  <Button
+                  <button
                     type="click"
-                    onClick='onClick'
+                    onClick={() => nameCourse(course)}
                     className="button-select"
                   >
                     Selecionar
-                  </Button>
+                  </button>
                 </td>
               </tr>
             );
