@@ -57,12 +57,14 @@ function Home() {
           ao aluno comparar cursos entre si.
         </p>
         <h2>Vantagens</h2>
-        <p>É tudo <span>online</span></p>
-        <p>Não tem limite de <span>vagas</span></p>
-        <p>Opções de financiamento estudantil <span>sem juros</span></p>
-        <p>Não precisa de <span>conta em banco</span></p>
-        <p>Pode pedir a <span>qualquer momento do ano</span></p>
-        <p>Financia o valor <span>total da mensalidade</span></p>
+        <span className='about-benefits'>
+        <p>É tudo <span className='benefits-bold'>online</span></p>
+        <p>Não tem limite de <span className='benefits-bold'>vagas</span></p>
+        <p>Opções de financiamento estudantil <span className='benefits-bold'>sem juros</span></p>
+        <p>Não precisa de <span className='benefits-bold'>conta em banco</span></p>
+        <p>Pode pedir a <span className='benefits-bold'>qualquer momento do ano</span></p>
+        <p>Financia o valor <span className='benefits-bold'>total da mensalidade</span></p>
+        </span>
       </InfoCard>
       </section>
       <Button
