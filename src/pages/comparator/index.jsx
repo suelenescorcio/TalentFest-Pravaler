@@ -24,7 +24,7 @@ function Comparator() {
 
   function filterCourses(data, text) {
     let courseFiltered = data.filter((response) =>
-      response.name.includes(text)
+      response.name.toLowerCase().includes(text)
     );
     setCourses(courseFiltered);
     return courseFiltered;
