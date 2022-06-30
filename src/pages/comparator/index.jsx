@@ -3,6 +3,7 @@ import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
 import { getCampus, getCourses, getInstitutions} from '../../services/api';
+
 import Select from '../../components/select';
 import Table from '../../components/table';
 import Footer from '../../components/footer';
@@ -12,6 +13,7 @@ import './style.css';
 function Comparator() {
 
   // const [dataStates, setDataStates] = useState([]);
+
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
   const [campus, setCampus] = useState([]);
@@ -24,7 +26,6 @@ function Comparator() {
     );
     setCourses(courseFiltered);
     return courseFiltered;
-    //console.log(courseFiltered);
   }
 
   const fetchInstitutions = async () => {
@@ -42,7 +43,6 @@ function Comparator() {
       .then((data) => {
         const dataCampus = data.campus;
         setCampus(dataCampus);
-        // console.log(data, 'data');
       });
   };
 
@@ -55,6 +55,7 @@ function Comparator() {
   //       console.log(data, 'data');
   //     });
   // };
+
 
   const fetchCourses = async () => {
     await getCourses()
@@ -119,13 +120,15 @@ function Comparator() {
         <Select options={institutions} onChange={filterInstituitions} />
         <Select options={campus} onChange={filterCampus}/>
         <Select options={campus} onChange={filterUf} />
+
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos
           </Button>
         </section>
-
-          <Table arrCourse={courseSelected} />
-
+        <section className='container-table'>
+        <Table arrCourse={courseSelected} />
+        <Button type='click' className='button-reset-comparation'>Refazer comporativo</Button>
+        </section>
         <section className="section-cards">
           <CoursesCard
             courses={courses}

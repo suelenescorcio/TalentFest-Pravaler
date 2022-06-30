@@ -1,6 +1,7 @@
 import Button from '../button';
+import './style.css';
 
-function Table({arrCourse,onClick}) {
+function Table({ arrCourse, onClick }) {
   return (
     <>
       <table>
@@ -17,22 +18,28 @@ function Table({arrCourse,onClick}) {
           </tr>
         </thead>
         <tbody>
-        {arrCourse.map((course) => {
-          return(
-        <tr key={course.id}>
-            <td>{course.name}</td>
-            <td>{course.instituionId}</td>
-            <td>{course.campusId}</td>
-            <td>{course.monthly_payment}</td>
-            <td>{course.mec_avaliation}</td>
-            <td>{course.semesters}</td>
-            <td>{course.salary_range}</td>
-            <td><Button type='click' onClick={onClick} className='button-select' >Selecionar</Button></td>
-        </tr>
-
-          );
-        } )}
-
+          {arrCourse.map((course) => {
+            return (
+              <tr key={course.id}>
+                <td>{course.name}</td>
+                <td>{course.instituionId}</td>
+                <td>{course.campusId}</td>
+                <td>R$ {course.monthly_payment}</td>
+                <td>{course.mec_avaliation}</td>
+                <td>{course.semesters}</td>
+                <td>R$ {course.salary_range}</td>
+                <td>
+                  <Button
+                    type="click"
+                    onClick={onClick}
+                    className="button-select"
+                  >
+                    Selecionar
+                  </Button>
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>
