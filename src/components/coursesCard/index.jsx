@@ -5,6 +5,7 @@ function CoursesCard({courses, courseSelected, setCourseSelected}) {
 
   const handleSelectedCourse = (course) => {
     setCourseSelected([...courseSelected, course]);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (

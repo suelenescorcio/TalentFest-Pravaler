@@ -1,10 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft } from 'react-icons/fa';
+import { useState } from 'react';
 import Header from '../../components/header';
 import Input from '../../components/input';
 import Button from '../../components/button';
 import '../home/style.css';
 import './style.css';
+import Message from '../../components/message';
 
 function Dice() {
 let courseSelected = localStorage.getItem('Name');
@@ -15,9 +17,7 @@ localStorage.removeItem('Name');
 navigate('/comparator');
 };
 
-function send(){
-  alert('Cadastro realizado!');
-}
+const [message, setMessage] = useState('');
 
   return (
     <main className="main-section">
@@ -56,9 +56,9 @@ function send(){
           placeholder={'UF'}
           maxLength="2"/>
       </div>
-
+      <Message text={message} className='message-register'/>
       <Button type="submit" className="button-comparator button-registration" onClick={() => {
-          send();
+          setMessage('Cadastro realizado com sucesso!');
         }}>
         Cadastre-se
       </Button>
