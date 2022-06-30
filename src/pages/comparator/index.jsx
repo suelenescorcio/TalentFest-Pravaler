@@ -4,7 +4,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
-import { getCampus, getCourses, getInstitutions} from '../../services/api';
+import { getCampus, getCourses, getInstitutions } from '../../services/api';
 
 import Select from '../../components/select';
 import Table from '../../components/table';
@@ -31,7 +31,7 @@ function Comparator() {
   }
 
   const fetchInstitutions = async () => {
-      await getInstitutions()
+    await getInstitutions()
       .then((response) => response.json())
       .then((data) => {
         const dataInstitution = data.institutions;
@@ -53,8 +53,7 @@ function Comparator() {
       .then((response) => response.json())
       .then((data) => {
         const states = data.campus;
-        const newStates = [...new Set(states)];
-        setDataStates(newStates);
+        setDataStates(states);
         console.log(states, 'data');
       });
   };
@@ -95,15 +94,19 @@ function Comparator() {
 
   const navigate = useNavigate();
 
-  function filterInstituitions(filtro)  {
+  function filterInstituitions(filtro) {
     const selectedInstitutionId = filtro.target.value;
-    const filteredInstituion = courses.filter((course) => course.instituionId === Number(selectedInstitutionId));
+    const filteredInstituion = courses.filter(
+      (course) => course.instituionId === Number(selectedInstitutionId)
+    );
     setCourses(filteredInstituion);
   }
 
-  function filterCampus(filtro)  {
+  function filterCampus(filtro) {
     const selectedCampusId = filtro.target.value;
-    const filteredCampus = courses.filter((course) => course.campusId === Number(selectedCampusId));
+    const filteredCampus = courses.filter(
+      (course) => course.campusId === Number(selectedCampusId)
+    );
     setCourses(filteredCampus);
   }
 
@@ -118,15 +121,20 @@ function Comparator() {
     <>
       <main>
         <Header className="logo-comparator" />
-        <FaArrowLeft size="45" color="#FF6312" cursor='pointer' onClick={() => {
-                navigate('/home');
-              }} />
+        <FaArrowLeft
+          size="45"
+          color="#FF6312"
+          cursor="pointer"
+          onClick={() => {
+            navigate('/home');
+          }}
+        />
         <section className="section-selects">
           <Input
             type="search"
             value={text}
             onChange={handleInput}
-            placeholder="Pesquise o curso"
+            placeholder="🔎 Pesquise o curso"
             className="search-input"
           />
 
@@ -138,9 +146,15 @@ function Comparator() {
             Limpar Campos
           </Button>
         </section>
-        <section className='container-table'>
-        <Table arrCourse={courseSelected} />
-        <Button type='click' onClick={handleComparator} className='button-reset-comparation'>Refazer comporativo</Button>
+        <section className="container-table">
+          <Table arrCourse={courseSelected} />
+          <Button
+            type="click"
+            onClick={handleComparator}
+            className="button-reset-comparation"
+          >
+            Refazer comporativo
+          </Button>
         </section>
         <section className="section-cards">
           <CoursesCard
