@@ -1,0 +1,32 @@
+thead {
+    background-color: #A661F6;
+}
+
+tbody {
+    background-color: #DCC0FB;
+    border-collapse:collapse;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    width: 25%;
+}
+
+tr {
+    width: 25%;
+}
+
+table {
+    padding: 4%;
+}
+
+.button-select {
+    cursor: pointer;
+    background-color: #FF6315;
+    border: black;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
