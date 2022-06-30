@@ -39,7 +39,11 @@ O protótipo de alta fidelidade foi desenvolvido na ferramenta do Figma.
 
 A paleta de cores foi inspirada na da empresa.
 
+ <div align="center">
+
 ![](src/assets/paletadecores.png)
+
+</div>
 
 ## 4. Tecnologias Utilizadas
 
@@ -130,7 +134,5 @@ A paleta de cores foi inspirada na da empresa.
 
 ## 6. Agradecimentos
 
-- Agradecimentos especiais a equipe do Pravaler ao apoio a nossa equipe, que nos deu total suporte durante o desafio do Talent Fest Brasil da <a href="https://www.laboratoria.la/br">Laboratória</a>.
-
-- Agradecimento especial a Marcela Godoy e Leticia Cipriano, que nos acompanhou em todo desafio.
+- Agradecimentos especiais a equipe do Pravaler que deu suporte a nossa equipe durante o desafio do Talent Fest Brasil da <a href="https://www.laboratoria.la/br">Laboratória</a>.
 
