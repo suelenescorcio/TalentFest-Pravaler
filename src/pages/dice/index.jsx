@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa';
 import Header from '../../components/header';
 import Input from '../../components/input';
 import Button from '../../components/button';
@@ -9,10 +11,14 @@ function Dice() {
 function send(){
   alert('Cadastro realizado!');
 }
+const navigate = useNavigate();
 
   return (
     <main className="main-section">
       <Header className="logo-dice" />
+      <FaArrowLeft size="45" color="#FF6312" cursor='pointer' className='icons' onClick={() => {
+                navigate('/comparator');
+              }} />
       <h1 className="subtitle">Cadastro</h1>
       <h3 className="subtitle course-name">Dados Pessoais</h3>
       <Input

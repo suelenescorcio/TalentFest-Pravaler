@@ -2,6 +2,12 @@
     width: 60%;
 }
 
+.icons {
+  position: absolute;
+  left: 5px;
+  top: 70px;
+}
+
 .subtitle{
     color: #FF6316;
     margin: 1%;

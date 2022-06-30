@@ -1,8 +1,15 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
-import { getCourses, getInstitutions, getStates } from '../../services/api';
+import {
+  getCampus,
+  getCourses,
+  getInstitutions,
+  getStates,
+} from '../../services/api';
 import Select from '../../components/select';
 import Table from '../../components/table';
 import Footer from '../../components/footer';
@@ -13,15 +20,16 @@ function Comparator() {
   const [dataStates, setDataStates] = useState([]);
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
+  const [campus, setCampus] = useState([]);
   const [courseSelected, setCourseSelected] = useState([]);
   const [text, setText] = useState('');
 
   function filterCourses(data, text) {
     let courseFiltered = data.filter((response) =>
-      response.name.includes(text));
-      setCourses(courseFiltered);
-      return courseFiltered;
-    //console.log(courseFiltered);
+      response.name.includes(text)
+    );
+    setCourses(courseFiltered);
+    return courseFiltered;
   }
 //   function filterCourses(idsCursos, courses) {
 //     const filtros = idsCursos;
@@ -52,7 +60,15 @@ function Comparator() {
       .then((data) => {
         const dataInstitution = data.institutions;
         setInstitutions(dataInstitution);
-        // console.log(data, 'data');
+      });
+  }, []);
+
+  useEffect(() => {
+    getCampus()
+      .then((response) => response.json())
+      .then((data) => {
+        const dataCampus = data.campus;
+        setCampus(dataCampus);
       });
   }, []);
 
@@ -62,7 +78,6 @@ function Comparator() {
       .then((data) => {
         const states = data.states;
         setDataStates(states);
-        console.log(data, 'data');
       });
   }, []);
 
@@ -91,6 +106,10 @@ function Comparator() {
     filterCourses(courses, text);
   };
 
+  const handleComparator = () => {
+    setCourseSelected([]);
+  };
+
   // const handleInstitutions = (e) => {
   //   setInstitutions(e.target.value);
   //   filterCourses(filterInstituitions(institutions), courses);
@@ -99,6 +118,7 @@ function Comparator() {
   const handleReset = () => {
     setText('');
     setInstitutions([]);
+    setCampus([]);
     getCourses()
       .then((response) => response.json())
       .then((response) => {
@@ -106,22 +126,15 @@ function Comparator() {
       });
   };
 
-  const handleCourse = (course) => {
-    const courseFind = courses.find((item) => item.id === course.id);
-    // setCourseSelected([...course]);
-    if (courseFind) {
-      courseFind.name += 1;
-    } else {
-      course.name = 1;
-      courses.push(course);
-    }
-    setCourseSelected([...courses]);
-  };
+  const navigate = useNavigate();
 
   return (
     <>
       <main>
         <Header className="logo-comparator" />
+        <FaArrowLeft size="45" color="#FF6312" cursor='pointer' onClick={() => {
+                navigate('/home');
+              }} />
         <section className="section-selects">
           <Input
             type="search"
@@ -130,19 +143,22 @@ function Comparator() {
             placeholder="Pesquise o curso"
             className="search-input"
           />
-          <Select value={institutions} options={institutions} />
+          <Select options={institutions} />
+          <Select options={campus} />
           <Select options={dataStates} />
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos
           </Button>
         </section>
-        {courseSelected.map((course) => {
-          <Table course={course} />;
-        })}
+        <section className='container-table'>
+        <Table arrCourse={courseSelected} />
+        <Button type='click' onClick={handleComparator} className='button-reset-comparation'>Refazer comporativo</Button>
+        </section>
         <section className="section-cards">
           <CoursesCard
             courses={courses}
-            onclick={() => handleCourse(courses)}
+            courseSelected={courseSelected}
+            setCourseSelected={setCourseSelected}
           />
         </section>
         <Footer />
