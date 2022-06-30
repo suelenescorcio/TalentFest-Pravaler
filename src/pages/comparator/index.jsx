@@ -54,7 +54,6 @@ function Comparator() {
       .then((data) => {
         const states = data.campus;
         setDataStates(states);
-        console.log(states, 'data');
       });
   };
 
@@ -112,7 +111,6 @@ function Comparator() {
   function filterUf(filtro)  {
     const selectedUf = filtro.target.value;
     const filteredUf = courses.filter((course) => course.instituionId === Number(selectedUf));
-    console.log(filteredUf);
     setCourses(filteredUf);
   }
 
