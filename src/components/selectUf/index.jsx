@@ -10,9 +10,9 @@ function SelectUf({ onChange, options, children}) {
         {options &&
          options.map((option, index) => {
           return (
-            <option key={index} value={option}>
-              {option}
-            </option>
+            <option key={index} value={option.instituionId}>
+            {option.uf}
+          </option>
           );
         })}
       </select>
