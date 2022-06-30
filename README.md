@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# Desenvolvimento web (MVP) : Comparador de Cursos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![logobranco](src/assets/logo.png)
 
-## Available Scripts
+<div align='center'>
 
-In the project directory, you can run:
+🔗 [Link da aplicação](https://pravaler-comparador.netlify.app/) 🔗
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Nossa equipe de Desenvolvedoras recebeu uma tarefa enviada pela empresa Pravaler, onde deveríamos criar uma aplicação web que permita que o aluno obtenha informações sobre os cursos, possa comparar e escolher um curso de graduação.
+Sendo a página inicial como um convite ao aluno para conhecer mais sobre o Pravaler, saber como funciona o crédito, o que ele precisa fazer para contratá-lo, apresentar o comparador de cursos e encorajá-lo a usar.
+A página do Comparador de cursos, mostra as opções de curso oferecidas ao aluno, assim ele pode escolher três opções e pode visualizar um comparativo com as informações sobre os cursos. 
+Uma página de dados pessoais ao clicar no botão  “Selecionar” na tabela, o aluno é redirecionado para uma página de cadastro, onde conterá um formulário para o preenchimento dos dados pessoais: nome, telefone, email, endereço (rua, bairro, cidade, uf).
+Ressaltando que este projeto foi desenvolvido especialmente para o Talent Fest da Laboratória Brasil , onde as empresas lançam um desafio e as desenvolvedoras formadas têm apenas quatro dias para entregar a solução, tendo também as apresentações transmitidas via Youtube.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 1. Planejamento e Organização
+O projeto foi realizado em 3 dias utilizando a metodologia ágil KANBAN, por meio da plataforma [Trello](https://trello.com/b/oNRchXeg).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Planejamento](src/assets/trello.jpeg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. Protótipo de Alta Fidelidade
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O protótipo de alta fidelidade foi desenvolvido na ferramenta do Figma.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](src/assets/tela1.png)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](src/assets/tela2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![](src/assets/tela3.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 3. Paleta de Cores
 
-## Learn More
+A paleta de cores foi inspirada na da empresa.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ <div align="center">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](src/assets/paletadecores.png)
 
-### Code Splitting
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 4. Tecnologias Utilizadas
 
-### Analyzing the Bundle Size
+<p align="center">
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>
+</p>
+ 
+## 5. Considerações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<table>
+<td>
+  <div align="center">
+    <img alt="Flávia Dantas" src="https://media-exp2.licdn.com/dms/image/C4D03AQGu1iAOi6Lv4Q/profile-displayphoto-shrink_200_200/0/1649097392522?e=1661990400&v=beta&t=KPTAv-yiC7JRPgJqUVeH8YqKYeKyQ8he6braxAlMmgU "> 
+  </div>
+  <h3 align="center">Flávia Dantas</h3>
+  <div align="center">
+     <a href="https://www.linkedin.com/in/flavia-dantas/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+  <div align="center">
+     <a href="https://github.com/flavia-dantas" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </div>
+  </div>
+</td>
 
-### Making a Progressive Web App
+<td>
+  <div align="center">
+    <img alt="Julia Benedicto" src="https://media-exp2.licdn.com/dms/image/C4E03AQG8cIZvxeOScw/profile-displayphoto-shrink_200_200/0/1655136360544?e=1661990400&v=beta&t=Mc74sAHlkB9UwxetL7F9aceozP5Nwd31qHSQHE0eQOs"> 
+  </div>
+  <h3 align="center">Julia Benedicto</h3>
+  <div align="center">
+     <a href="https://www.linkedin.com/in/julia-benedicto/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+    <div align="center">
+     <a href="https://github.com/juliabb/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </div>
+  </div>
+</td>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<td>
+  <div align="center">
+    <img alt="Letícia Antunes" src="https://media-exp2.licdn.com/dms/image/C4E03AQGKvq8Ms4Vk6g/profile-displayphoto-shrink_200_200/0/1649704816282?e=1661990400&v=beta&t=GpUMAEEhL8TQlwOAH8ydqv0hZlY3h1bHsdNDe9kUtK4"> 
+  </div>
+  <h3 align="center">Letícia Antunes</h3>
+  <div align="center">
+     <a href="https://www.linkedin.com/in/leticiaantunes95/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+    <div align="center">
+     <a href="https://github.com/leticiaantunesjpeg/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </div>
+  </div>
+</td>
 
-### Advanced Configuration
+<td>
+  <div align="center">
+    <img alt="Suelen Escorcio" src="https://media-exp2.licdn.com/dms/image/C5603AQHam_w8CXAAlg/profile-displayphoto-shrink_200_200/0/1643205919960?e=1661990400&v=beta&t=3BkNZuCscRqiZAJKhg2X_0HpEP6ELW4zbsZIGHZKgY4"> 
+  </div>
+  <h3 align="center">Suelen Escórcio</h3>
+  <div align="center">
+     <a href="https://www.linkedin.com/in/suelen-escorcio/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+    <div align="center">
+     <a href="https://github.com/suelenescorcio/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </div>
+  </div>
+</td>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<td>
+  <div align="center">
+    <img alt="Vanessa Borges" src="https://media-exp2.licdn.com/dms/image/C4E03AQH_fQqE-5fdVA/profile-displayphoto-shrink_200_200/0/1655140373559?e=1661990400&v=beta&t=pYxasiN9zcbcJXy3oinwuuD1ZqLMo5cimKTl2saH03A"> 
+  </div>
+  <h3 align="center">Vanessa Borges</h3>
+  <div align="center">
+     <a href="https://www.linkedin.com/in/vanessa-borges-a05b4636/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+    <div align="center">
+     <a href="https://github.com/vanessavb92/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </div>
+  </div>
+</td>
 
-### Deployment
+</table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 6. Agradecimentos
 
-### `npm run build` fails to minify
+- Agradecimentos especiais a equipe do Pravaler que deu suporte a nossa equipe durante o desafio do Talent Fest Brasil da <a href="https://www.laboratoria.la/br">Laboratória</a>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
