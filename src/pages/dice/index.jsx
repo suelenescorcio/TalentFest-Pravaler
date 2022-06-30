@@ -32,7 +32,7 @@ const [value, setValue] = useState('');
   return (
     <main className="main-section">
       <Header className="logo-dice" />
-      <FaArrowLeft size="45" color="#FF6312" cursor='pointer' className='icons' onClick={() => {
+      <FaArrowLeft size="30" color="#FF6312" cursor='pointer' className='icons' onClick={() => {
                 navigate('/comparator');
               }} />
       <h1 className="subtitle">Cadastro</h1>
