@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft } from 'react-icons/fa';
 import Header from '../../components/header';
@@ -8,10 +7,17 @@ import '../home/style.css';
 import './style.css';
 
 function Dice() {
+let courseSelected = localStorage.getItem('Name');
+
+const navigate = useNavigate();
+const handleNavigate = () =>{
+localStorage.removeItem('Name');
+navigate('/comparator');
+};
+
 function send(){
   alert('Cadastro realizado!');
 }
-const navigate = useNavigate();
 
   return (
     <main className="main-section">
@@ -34,10 +40,10 @@ const navigate = useNavigate();
         type="email"
         placeholder={'email@email.com'}/>
 
-      <h4 className="course-name">curso escolhido:</h4>
-      <Link className="subtitle course-name course-link" to="/comparator">
+      <h4 className="course-name">Curso escolhido: {courseSelected}</h4>
+      <Button className="subtitle course-name course-link" onClick={handleNavigate}>
         alterar curso
-      </Link>
+      </Button>
 
       <h3 className="subtitle course-name">Endereço</h3>
       <Input className="input-form" type="text" placeholder={'Rua'}/>

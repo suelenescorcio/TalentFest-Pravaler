@@ -10,6 +10,8 @@
 
 .subtitle{
     color: #FF6316;
+    background: transparent;
+    border: none;
     margin: 1%;
 }
 
@@ -31,6 +33,7 @@
 
 .course-link{
     text-decoration: none;
+    cursor: pointer;
 }
 
 .city-uf{
