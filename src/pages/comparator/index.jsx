@@ -11,10 +11,11 @@ import Table from '../../components/table';
 import Footer from '../../components/footer';
 import Button from '../../components/button';
 import './style.css';
+import SelectUf from '../../components/selectUf';
 
 function Comparator() {
 
-  // const [dataStates, setDataStates] = useState([]);
+  const [dataStates, setDataStates] = useState([]);
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
   const [campus, setCampus] = useState([]);
@@ -47,15 +48,16 @@ function Comparator() {
       });
   };
 
-  // const fetchStates = async () => {
-  //   await getStates()
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       const states = data.states;
-  //       setDataStates(states);
-  //       console.log(data, 'data');
-  //     });
-  // };
+  const fetchStates = async () => {
+    await getCampus()
+      .then((response) => response.json())
+      .then((data) => {
+        const states = data.campus;
+        const newStates = [...new Set(states)];
+        setDataStates(newStates);
+        console.log(states, 'data');
+      });
+  };
 
 
   const fetchCourses = async () => {
@@ -69,7 +71,7 @@ function Comparator() {
   useEffect(() => {
     fetchInstitutions();
     fetchCampus();
-    // fetchStates();
+    fetchStates();
     fetchCourses();
   }, []);
 
@@ -107,7 +109,8 @@ function Comparator() {
 
   function filterUf(filtro)  {
     const selectedUf = filtro.target.value;
-    const filteredUf = courses.filter((course) => course.uf === Number(selectedUf));
+    console.log(selectedUf);
+    const filteredUf = courses.filter((course) => course.instituionId === Number(selectedUf));
     setCourses(filteredUf);
   }
 
@@ -127,9 +130,9 @@ function Comparator() {
             className="search-input"
           />
 
-        <Select options={institutions} onChange={filterInstituitions} />
-        <Select options={campus} onChange={filterCampus}/>
-        <Select options={campus} onChange={filterUf} />
+        <Select options={institutions} onChange={filterInstituitions} >Instituição</Select>
+        <Select options={campus} onChange={filterCampus}>Campus</Select>
+        <SelectUf options={dataStates} onChange={filterUf}>UF</SelectUf>
 
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos
