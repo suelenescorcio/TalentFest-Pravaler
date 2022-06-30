@@ -24,7 +24,7 @@ const [value, setValue] = useState('');
     if(value !== ''){
       setMessage('Cadastro realizado com sucesso!');
     }else{
-      setMessage('Por favor preencha todos os campoos');
+      setMessage('Por favor, preencha todos os campos');
     }
     setValue();
   }
