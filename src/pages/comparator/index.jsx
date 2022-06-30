@@ -4,12 +4,8 @@ import { FaArrowLeft } from 'react-icons/fa';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
-import {
-  getCampus,
-  getCourses,
-  getInstitutions,
-  getStates,
-} from '../../services/api';
+import { getCampus, getCourses, getInstitutions} from '../../services/api';
+
 import Select from '../../components/select';
 import Table from '../../components/table';
 import Footer from '../../components/footer';
@@ -17,7 +13,8 @@ import Button from '../../components/button';
 import './style.css';
 
 function Comparator() {
-  const [dataStates, setDataStates] = useState([]);
+
+  // const [dataStates, setDataStates] = useState([]);
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
   const [campus, setCampus] = useState([]);
@@ -31,75 +28,50 @@ function Comparator() {
     setCourses(courseFiltered);
     return courseFiltered;
   }
-//   function filterCourses(idsCursos, courses) {
-//     const filtros = idsCursos;
-//     const cursosFiltrados = [];
-//     courses.forEach((course) => {
-//         if(filtros.includes(course.instituionId)){
-//             cursosFiltrados.push(course.name);
-//         }
-//     });
-//     return cursosFiltrados;
-// }
 
-  // function filterInstituitions(filtro)  {
-  //   filtro.filter((response) => response.name === filtro);
-  //   const instituicaoFiltrada = [];
-  //   institutions.forEach((ies) => {
-  //       if(ies.name.toLocaleLowerCase().trim().includes(filtro)) {
-  //           instituicaoFiltrada.push(ies.id);
-  //         }
-  //   });
-  //   return instituicaoFiltrada;
-  // }
-
-
-  useEffect(() => {
-    getInstitutions()
+  const fetchInstitutions = async () => {
+      await getInstitutions()
       .then((response) => response.json())
       .then((data) => {
         const dataInstitution = data.institutions;
         setInstitutions(dataInstitution);
       });
-  }, []);
+  };
 
-  useEffect(() => {
-    getCampus()
+  const fetchCampus = async () => {
+    await getCampus()
       .then((response) => response.json())
       .then((data) => {
         const dataCampus = data.campus;
         setCampus(dataCampus);
       });
-  }, []);
+  };
 
-  useEffect(() => {
-    getStates()
-      .then((response) => response.json())
-      .then((data) => {
-        const states = data.states;
-        setDataStates(states);
-      });
-  }, []);
+  // const fetchStates = async () => {
+  //   await getStates()
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       const states = data.states;
+  //       setDataStates(states);
+  //       console.log(data, 'data');
+  //     });
+  // };
 
-  useEffect(() => {
-    getCourses()
+
+  const fetchCourses = async () => {
+    await getCourses()
       .then((response) => response.json())
       .then((response) => {
         setCourses(response.courses);
       });
+  };
+
+  useEffect(() => {
+    fetchInstitutions();
+    fetchCampus();
+    // fetchStates();
+    fetchCourses();
   }, []);
-
-  // const testCourses = (event) => {
-
-
-  //   if(event.keyCode === 8){
-  //     return getCourses();
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('keydown', testCourses);
-  // }, []);
 
   const handleInput = (e) => {
     setText(e.target.value);
@@ -110,23 +82,34 @@ function Comparator() {
     setCourseSelected([]);
   };
 
-  // const handleInstitutions = (e) => {
-  //   setInstitutions(e.target.value);
-  //   filterCourses(filterInstituitions(institutions), courses);
-  // };
-
   const handleReset = () => {
     setText('');
     setInstitutions([]);
     setCampus([]);
-    getCourses()
-      .then((response) => response.json())
-      .then((response) => {
-        setCourses(response.courses);
-      });
+    fetchInstitutions();
+    fetchCampus();
+    fetchCourses();
   };
 
   const navigate = useNavigate();
+
+  function filterInstituitions(filtro)  {
+    const selectedInstitutionId = filtro.target.value;
+    const filteredInstituion = courses.filter((course) => course.instituionId === Number(selectedInstitutionId));
+    setCourses(filteredInstituion);
+  }
+
+  function filterCampus(filtro)  {
+    const selectedCampusId = filtro.target.value;
+    const filteredCampus = courses.filter((course) => course.campusId === Number(selectedCampusId));
+    setCourses(filteredCampus);
+  }
+
+  function filterUf(filtro)  {
+    const selectedUf = filtro.target.value;
+    const filteredUf = courses.filter((course) => course.uf === Number(selectedUf));
+    setCourses(filteredUf);
+  }
 
   return (
     <>
@@ -143,9 +126,11 @@ function Comparator() {
             placeholder="Pesquise o curso"
             className="search-input"
           />
-          <Select options={institutions} />
-          <Select options={campus} />
-          <Select options={dataStates} />
+
+        <Select options={institutions} onChange={filterInstituitions} />
+        <Select options={campus} onChange={filterCampus}/>
+        <Select options={campus} onChange={filterUf} />
+
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos
           </Button>
