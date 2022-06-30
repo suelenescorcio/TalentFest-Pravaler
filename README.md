@@ -2,8 +2,8 @@
 
 ![logobranco](src/assets/logo.png)
 
-Nossa equipe de Desenvolvedoras recebeu a tarefa enviada pela empresa Pravaler , onde deveriamos criar uma aplicação viável em que  o aluno possa saber como funciona o crédito, o que ele precisa fazer para contratá-lo, apresentar
-o comparador de cursos e encorajá-lo a usar, exibindo na tela funçoes de escolhe filtrando as principais informações requeridas pelo usuário. Ressaltando que este projeto foi desenvolvido especialmente para o Talent fest da Laboratória brasil , onde as empresas lançam desafios  e as desenvolvedoras  formadas tem apenas quatro dia pra entregar a solução, sendo tambem as apresentações transmitida via  Yutube.
+Nossa equipe de Desenvolvedoras recebeu uma tarefa enviada pela empresa Pravaler, onde deveriamos criar uma aplicação em que o aluno possa saber como funciona o crédito, o que ele precisa fazer para contratá-lo, apresentar
+o comparador de cursos e encorajá-lo a usar, exibindo na tela funções de escolhe filtrando as principais informações requeridas pelo usuário. Ressaltando que este projeto foi desenvolvido especialmente para o Talent fest da Laboratória brasil , onde as empresas lançam desafios  e as desenvolvedoras  formadas tem apenas quatro dia pra entregar a solução, sendo tambem as apresentações transmitida via  Yutube.
 
 ## 1. Planejamento e Organização
 
@@ -67,14 +67,16 @@ onde conterá infomações do curso selecionado e um formulário para o preenchi
 - [x] Campo para para filtro de cursos
 
 ## 4. Tecnologias Utilizadas
+
 <p align="center">
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
-<a href="https://trello.com/pt-BR//" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/-Trello-007ACC?style=flat&logo=Trello&logoColor=white">
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
- <img alt="Slack" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"> 
-<img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"> <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white">
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>
+</p>
  
 ## 5. Considerações
 
@@ -155,6 +157,7 @@ onde conterá infomações do curso selecionado e um formulário para o preenchi
 
 ## 6. Agradecimentos
 
-- Agradecimentos especiais a equipe de programadores do Pravaler  ao apoio a nossa equipe, que nos deu total suporte durante o desafio do talent fest Brasil.
+- Agradecimentos especiais a equipe de programadores do Pravaler  ao apoio a nossa equipe, que nos deu total suporte durante o desafio do Talent Fest Brasil da <a href="https://www.laboratoria.la/br">Laboratória</a>.
+
 - Agradecimento especial a Marcela Godoy e Leticia Cipriano, que nos acompanhou em todo desafio.
 
