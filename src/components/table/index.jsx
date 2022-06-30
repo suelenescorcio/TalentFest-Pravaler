@@ -1,7 +1,16 @@
+// import { useNavigate } from 'react-router-dom';
 import Button from '../button';
 import './style.css';
 
-function Table({ arrCourse, onClick }) {
+function Table({ arrCourse }) {
+    // const navigate = useNavigate();
+    // navigate('/dice');
+    
+    // function nameCourse(courseSelected) {
+    //     localStorage.setItem('Name', courseSelected.name);
+    //     console.log('Name', courseSelected.name);
+    //   }
+  
   return (
     <>
       <table>
@@ -31,7 +40,7 @@ function Table({ arrCourse, onClick }) {
                 <td>
                   <Button
                     type="click"
-                    onClick={onClick}
+                    onClick='onClick'
                     className="button-select"
                   >
                     Selecionar

@@ -2,8 +2,16 @@
     width: 60%;
 }
 
+.icons {
+  position: absolute;
+  left: 5px;
+  top: 70px;
+}
+
 .subtitle{
     color: #FF6316;
+    background: transparent;
+    border: none;
     margin: 1%;
 }
 
@@ -25,6 +33,7 @@
 
 .course-link{
     text-decoration: none;
+    cursor: pointer;
 }
 
 .city-uf{

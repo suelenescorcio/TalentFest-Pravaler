@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa';
 import Input from '../../components/input';
 import Header from '../../components/header';
 import CoursesCard from '../../components/coursesCard';
@@ -13,7 +15,6 @@ import './style.css';
 function Comparator() {
 
   // const [dataStates, setDataStates] = useState([]);
-
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
   const [campus, setCampus] = useState([]);
@@ -77,14 +78,20 @@ function Comparator() {
     filterCourses(courses, text);
   };
 
+  const handleComparator = () => {
+    setCourseSelected([]);
+  };
+
   const handleReset = () => {
     setText('');
-    getCourses()
-      .then((response) => response.json())
-      .then((response) => {
-        setCourses(response.courses);
-      });
+    setInstitutions([]);
+    setCampus([]);
+    fetchInstitutions();
+    fetchCampus();
+    fetchCourses();
   };
+
+  const navigate = useNavigate();
 
   function filterInstituitions(filtro)  {
     const selectedInstitutionId = filtro.target.value;
@@ -108,6 +115,9 @@ function Comparator() {
     <>
       <main>
         <Header className="logo-comparator" />
+        <FaArrowLeft size="45" color="#FF6312" cursor='pointer' onClick={() => {
+                navigate('/home');
+              }} />
         <section className="section-selects">
           <Input
             type="search"
@@ -127,7 +137,7 @@ function Comparator() {
         </section>
         <section className='container-table'>
         <Table arrCourse={courseSelected} />
-        <Button type='click' className='button-reset-comparation'>Refazer comporativo</Button>
+        <Button type='click' onClick={handleComparator} className='button-reset-comparation'>Refazer comporativo</Button>
         </section>
         <section className="section-cards">
           <CoursesCard
