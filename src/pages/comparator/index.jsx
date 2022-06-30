@@ -78,7 +78,7 @@ function Comparator() {
         setCourses(response.courses);
       });
   };
-
+  
   return (
     <>
       <main>
