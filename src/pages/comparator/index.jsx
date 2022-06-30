@@ -122,7 +122,7 @@ function Comparator() {
       <main>
         <Header className="logo-comparator" />
         <FaArrowLeft
-          size="45"
+          size="30"
           color="#FF6312"
           cursor="pointer"
           onClick={() => {
