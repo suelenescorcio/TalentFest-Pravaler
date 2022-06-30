@@ -18,6 +18,16 @@ navigate('/comparator');
 };
 
 const [message, setMessage] = useState('');
+const [value, setValue] = useState('');
+
+  function checkFields(){
+    if(value !== ''){
+      setMessage('Cadastro realizado com sucesso!');
+    }else{
+      setMessage('Por favor preencha todos os campoos');
+    }
+    setValue();
+  }
 
   return (
     <main className="main-section">
@@ -30,36 +40,40 @@ const [message, setMessage] = useState('');
       <Input
         className="input-form"
         type="text"
-        placeholder={'Nome Sobrenome'}/>
+        placeholder={'Nome Sobrenome'}
+        value={value}/>
       <Input
         className="input-form"
         type="number"
-        placeholder={'Telefone - (12) 34567-8910'}/>
+        placeholder={'Telefone - (12) 34567-8910'}
+        value={value}/>
       <Input
         className="input-form"
         type="email"
-        placeholder={'email@email.com'}/>
+        placeholder={'email@email.com'}
+        value={value}/>
 
-      <h4 className="course-name">Curso escolhido: {courseSelected}</h4>
+      <h4 className="course-name"><span className="course-name-bold" >Curso escolhido: </span>{courseSelected}</h4>
       <Button className="subtitle course-name course-link" onClick={handleNavigate}>
         alterar curso
       </Button>
 
       <h3 className="subtitle course-name">Endereço</h3>
-      <Input className="input-form" type="text" placeholder={'Rua'}/>
-      <Input className="input-form" type="text" placeholder={'Bairro'}/>
+      <Input className="input-form" type="text" placeholder={'Rua'} value={value}/>
+      <Input className="input-form" type="text" placeholder={'Bairro'} value={value}/>
       <div className="city-uf">
-        <Input className="input-form" type="text" placeholder={'Cidade'}/>
+        <Input className="input-form" type="text" placeholder={'Cidade'} value={value}/>
         <Input
           className="input-form uf"
           type="text"
           placeholder={'UF'}
-          maxLength="2"/>
+          maxLength="2"
+          value={value}/>
       </div>
       <Message text={message} className='message-register'/>
-      <Button type="submit" className="button-comparator button-registration" onClick={() => {
-          setMessage('Cadastro realizado com sucesso!');
-        }}>
+      <Button type="submit" className="button-comparator button-registration"
+      onClick={checkFields}
+        >
         Cadastre-se
       </Button>
     </main>
