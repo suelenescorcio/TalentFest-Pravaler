@@ -54,7 +54,6 @@ function Comparator() {
       .then((data) => {
         const states = data.campus;
         setDataStates(states);
-        console.log(states, 'data');
       });
   };
 
@@ -112,7 +111,6 @@ function Comparator() {
 
   function filterUf(filtro)  {
     const selectedUf = filtro.target.value;
-    console.log(selectedUf);
     const filteredUf = courses.filter((course) => course.instituionId === Number(selectedUf));
     setCourses(filteredUf);
   }
@@ -147,6 +145,11 @@ function Comparator() {
           </Button>
         </section>
         <section className="container-table">
+
+        {courseSelected.length != 0 &&
+        <div className='container-comparator'>
+          <h3 className='title-table'>Comparativo de cursos</h3>
+          <div className='comparator-table'>
           <Table arrCourse={courseSelected} />
           <Button
             type="click"
@@ -155,13 +158,19 @@ function Comparator() {
           >
             Refazer comporativo
           </Button>
+          </div>
+        </div>
+        }
         </section>
         <section className="section-cards">
+          <h5 className='title-cards'>Selecione os cursos para comparar</h5>
+          <div className='container-cards'>
           <CoursesCard
             courses={courses}
             courseSelected={courseSelected}
             setCourseSelected={setCourseSelected}
           />
+          </div>
         </section>
         <Footer />
       </main>
