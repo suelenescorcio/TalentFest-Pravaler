@@ -24,7 +24,7 @@ function Comparator() {
 
   function filterCourses(data, text) {
     let courseFiltered = data.filter((response) =>
-      response.name.includes(text)
+      response.name.toLowerCase().includes(text)
     );
     setCourses(courseFiltered);
     return courseFiltered;
@@ -52,11 +52,13 @@ function Comparator() {
     await getCampus()
       .then((response) => response.json())
       .then((data) => {
-        const states = data.campus;
-        setDataStates(states);
+        const newStates = data.campus.map(state => state.uf);
+        const filteredStates = [... new Set(newStates)];
+        console.log(filteredStates);
+        setDataStates(filteredStates);
+
       });
   };
-
 
   const fetchCourses = async () => {
     await getCourses()
@@ -84,8 +86,8 @@ function Comparator() {
 
   const handleReset = () => {
     setText('');
-    setInstitutions([]);
-    setCampus([]);
+    setInstitutions();
+    setCampus();
     fetchInstitutions();
     fetchCampus();
     fetchCourses();
@@ -156,7 +158,7 @@ function Comparator() {
             onClick={handleComparator}
             className="button-reset-comparation"
           >
-            Refazer comporativo
+            Refazer comparativo
           </Button>
           </div>
         </div>

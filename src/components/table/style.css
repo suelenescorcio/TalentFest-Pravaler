@@ -9,6 +9,7 @@ tbody {
 td {
     text-align: center;
     width: 12.5%;
+    padding: 1%;
 }
 
 th {
