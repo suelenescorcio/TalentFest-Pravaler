@@ -2,13 +2,48 @@
     width: 13%;
 }
 
-.section-cards {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2.5%;
-    flex-wrap: wrap;
+.title-table{
+  display: flex;
+  color: #FF6316;
+  /* margin: 0 5%;
+   */
+   margin: 0;
+   padding: 0 7%;
+  width: 80%;
 }
 
+.container-comparator{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.comparator-table{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  justify-content: center;
+}
+
+.section-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-cards{
+  margin: 0;
+  padding: 0 6%;
+}
+
+.container-cards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2.5%;
+  flex-wrap: wrap;
+}
 .section-selects {
     display: flex;
     justify-content: space-evenly;

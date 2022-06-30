@@ -31,6 +31,10 @@
     margin-left: 25%;
 }
 
+.course-name-bold{
+  color: #FF6316;
+}
+
 .course-link{
     text-decoration: none;
     cursor: pointer;
