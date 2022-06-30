@@ -23,6 +23,28 @@ function Comparator() {
       return courseFiltered;
     //console.log(courseFiltered);
   }
+//   function filterCourses(idsCursos, courses) {
+//     const filtros = idsCursos;
+//     const cursosFiltrados = [];
+//     courses.forEach((course) => {
+//         if(filtros.includes(course.instituionId)){
+//             cursosFiltrados.push(course.name);
+//         }
+//     });
+//     return cursosFiltrados;
+// }
+
+  // function filterInstituitions(filtro)  {
+  //   filtro.filter((response) => response.name === filtro);
+  //   const instituicaoFiltrada = [];
+  //   institutions.forEach((ies) => {
+  //       if(ies.name.toLocaleLowerCase().trim().includes(filtro)) {
+  //           instituicaoFiltrada.push(ies.id);
+  //         }
+  //   });
+  //   return instituicaoFiltrada;
+  // }
+
 
   useEffect(() => {
     getInstitutions()
@@ -69,8 +91,14 @@ function Comparator() {
     filterCourses(courses, text);
   };
 
+  // const handleInstitutions = (e) => {
+  //   setInstitutions(e.target.value);
+  //   filterCourses(filterInstituitions(institutions), courses);
+  // };
+
   const handleReset = () => {
     setText('');
+    setInstitutions([]);
     getCourses()
       .then((response) => response.json())
       .then((response) => {
@@ -102,7 +130,7 @@ function Comparator() {
             placeholder="Pesquise o curso"
             className="search-input"
           />
-          <Select options={institutions} />
+          <Select value={institutions} options={institutions} />
           <Select options={dataStates} />
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos

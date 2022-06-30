@@ -1,6 +1,6 @@
 import './style.css';
 
-function Select({ onChange, options }) {
+function Select({ onChange, options, value }) {
   return (
     <>
       <select onChange={onChange} className='select-option'>
@@ -10,7 +10,7 @@ function Select({ onChange, options }) {
         {options &&
          options.map((option, index) => {
           return (
-            <option key={index} value={option.name}>
+            <option key={index} value={value}>
               {option.name}
             </option>
           );
