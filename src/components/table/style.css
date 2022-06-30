@@ -14,6 +14,7 @@ td {
 
 th {
     width: 12.5%;
+    padding: 1%;
 }
 
 tr {
@@ -31,4 +32,5 @@ table {
     border: black;
     color: white;
     font-family: "Rubik", sans-serif;
+    padding: 5%;
 }
