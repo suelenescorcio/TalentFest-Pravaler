@@ -11,8 +11,11 @@ import Table from '../../components/table';
 import Footer from '../../components/footer';
 import Button from '../../components/button';
 import './style.css';
+import SelectUf from '../../components/selectUf';
 
 function Comparator() {
+
+  const [dataStates, setDataStates] = useState([]);
   const [courses, setCourses] = useState([]);
   const [institutions, setInstitutions] = useState([]);
   const [campus, setCampus] = useState([]);
@@ -45,6 +48,17 @@ function Comparator() {
       });
   };
 
+  const fetchStates = async () => {
+    await getCampus()
+      .then((response) => response.json())
+      .then((data) => {
+        const states = data.campus;
+        setDataStates(states);
+        console.log(states, 'data');
+      });
+  };
+
+
   const fetchCourses = async () => {
     await getCourses()
       .then((response) => response.json())
@@ -56,7 +70,7 @@ function Comparator() {
   useEffect(() => {
     fetchInstitutions();
     fetchCampus();
-    // fetchStates();
+    fetchStates();
     fetchCourses();
   }, []);
 
@@ -96,6 +110,13 @@ function Comparator() {
     setCourses(filteredCampus);
   }
 
+  function filterUf(filtro)  {
+    const selectedUf = filtro.target.value;
+    console.log(selectedUf);
+    const filteredUf = courses.filter((course) => course.instituionId === Number(selectedUf));
+    setCourses(filteredUf);
+  }
+
   return (
     <>
       <main>
@@ -116,8 +137,11 @@ function Comparator() {
             placeholder="🔎 Pesquise o curso"
             className="search-input"
           />
-          <Select options={institutions} onChange={filterInstituitions} />
-          <Select options={campus} onChange={filterCampus} />
+
+        <Select options={institutions} onChange={filterInstituitions} >Instituição</Select>
+        <Select options={campus} onChange={filterCampus}>Campus</Select>
+        <SelectUf options={dataStates} onChange={filterUf}>UF</SelectUf>
+
           <Button type="click" onClick={handleReset} className="button-reset">
             Limpar Campos
           </Button>

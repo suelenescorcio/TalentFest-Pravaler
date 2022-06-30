@@ -1,17 +1,18 @@
 import './style.css';
 
-function Select({ onChange, options, children }) {
+function SelectUf({ onChange, options,children }) {
   return (
     <>
       <select onChange={onChange} className='select-option'>
       <option disabled selected>
-          {children}
+      {children}
+
         </option>
         {options &&
          options.map((option, index) => {
           return (
-            <option key={index} value={option.id}>
-              {option.name}
+            <option key={index} value={option.instituionId}>
+              {option.uf}
             </option>
           );
         })}
@@ -20,4 +21,4 @@ function Select({ onChange, options, children }) {
   );
 }
 
-export default Select;
+export default SelectUf;
